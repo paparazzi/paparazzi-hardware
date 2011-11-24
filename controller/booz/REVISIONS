@@ -1,0 +1,4 @@
+booz_main
+
+v1.2
+* Switched sides A and B of UART1 level converter. Now usable for voltages 2.3V - 5.5V (was 1.65V to 3.6V) on the "outside" connector.

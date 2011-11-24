@@ -1,0 +1,36 @@
+#### tiny_proto : first batch, christmas 2005 
+
+
++add supply measurement
++add crystal direction mark in library
++remove button pullup from under the button
++add a pullup for P0.14
++expose P0.23 for USB bootloader
++expose one IT on SPI connector to enable slave's notification (DRDY)
+-improve serigraphy
++ make GPS middle pin bStop big enough
+? maybe add possibility to solder lithium battery instead of gold cap, without adding a drill (with thermal) in the ground patch area
++ add tStop under the (rectangle) gps patch (not sure if it will help, but seen elsewhere)
+- adjust LEA-xx dimension (part is taller than in .lbr)
+- adjust LEA-xx pad width (pads are thinner than in .lbr)
++ (try Digikey patch antenna/adjust board to it)
++ use 13mm Sangshin antenna
++ make the board compatible with LEA-LA by adding GPS mode solder bridges : only for separate GPS boards
++ wire GPS reset : NO
++ make through-holes under LEA have tStop even on holes to prevent (rare) short circuit to LEA : use PCB varnish instead
++rewire 4015 on a single output compare
+- add resitor bridge for USB_VBUS
++(GRZ) on serigraphy, replace
++ "S2" with "S0" on servo connector
++ "S3" with "S4" on servo connector
++ "S4" with "S5" on servo connector
+- add a diode in the USB VBUS detection
+###### tiny 0.99
+
+###### tiny13_1_1 and tiny20_1_1
+
+-remove audio hardware
+-add command/data and cts to serial1 connector ( for radiotronix )
+-swap uarts and expose CTS for modem that do hw flow control ??
+-add a "switched" power connector
+

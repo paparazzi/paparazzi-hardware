@@ -1,0 +1,14 @@
+# 2.774*2.502
+
+Row {           
+  Col {
+     imu_xy
+    Row { 
+     imu_xz
+     imu_yz
+    }
+  }
+  Col {
+    test_baro_24 Rotate
+  }
+}

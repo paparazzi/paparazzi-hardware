@@ -1,0 +1,70 @@
+crystal 
+RS  471-9118
+14.7MHz crystal at digikey ( CTX644CT-ND ) 
+12MHz CTX639CT-ND
+
+
+reg diode
+ LS4148, SOD80, RS 443-3690
+
+SPI
+he sets 83 to out and 84 to in from the gumstix PoV
+ http://svn.rungie.com/svn/gumstix-buildroot/branches/projects/robostix/gumstix/robostix_drv.c
+
+smd leds
+rs :  	 486-0468 
+
+button
+rs :  	 183-717 
+
+buzzer
+rs :   245-6449  	
+
+gold cap
+
+connection between [V_plus_capacitor] and [Vbat_lea_la] and another connection from [3.3V_supply] -diode-> -resistor- [V_plus_capacitor] and a two pin connector with V_plus_capacitor and V_minus_capacitor
+
+digikey # P11070CT-ND
+
+
+####
+
+inductance anton
+
+rs 333-8588 
+
+#######
+
+
+
+mun2111
+
+digikey : MMUN2111LT1OSCT-ND
+replaced with 
+DDTA143
+digikey : DDTA143ZCADICT-ND
+DTA143Z
+ 4.7k input and 47k pull-up
+
+#####
+
+GPS coil
+
+WE-MI_0805, wuerth-elektronik
+
+######
+GPS cap diode  / bas40
+
+#####
+
+bi led
+digikey # 404-1086-1-ND
+
+
+#####
+
+
+flash
+
+ M25P80
+

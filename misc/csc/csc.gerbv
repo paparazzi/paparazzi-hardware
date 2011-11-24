@@ -1,0 +1,8 @@
+(define-layer! 6 (cons 'filename "csc.sol")(cons 'color #(53504 6912 26624)))
+(define-layer! 5 (cons 'filename "csc.sts")(cons 'color #(54528 64768 13056)))
+(define-layer! 4 (cons 'filename "csc.l15")(cons 'color #(0 49920 49920)))
+(define-layer! 3 (cons 'filename "csc.l02")(cons 'color #(9749 50155 5224)))
+(define-layer! 2 (cons 'filename "csc.cmp")(cons 'color #(0 18486 2891)))
+(define-layer! 1 (cons 'filename "csc.plc")(cons 'color #(65535 65535 65535)))
+(define-layer! 0 (cons 'filename "csc.stc")(cons 'color #(35645 32004 32004)))
+(define-layer! -1 (cons 'filename "/home/poine/work/savannah/paparazzi4/trunk/hw/misc")(cons 'color #(0 0 0)))

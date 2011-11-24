@@ -1,0 +1,19 @@
+ This directory contains in progress project an some finished development board I made to test different parts
+
+adxrs300_breakout.sch : breakout board for adxrs300 gyro evaluation
+AMI_601.sch : breakout board for AMI601 magnetometer
+current_probe.sch : some current sensor I don't remember about
+ir_single_long.sch
+ir_single_slim.sch
+lipo_connector.sch
+olimex_add_on.sch
+pth_supply.sch
+pth_supply_servos_molex.sch
+pth_supply_servos.sch
+test_2620.sch
+test_filter.sch
+test_usb_hub.sch
+tiny4l_18_1_99.sch
+vor_add_on.sch
+xbee.sch
+

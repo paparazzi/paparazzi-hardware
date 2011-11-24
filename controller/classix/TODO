@@ -1,0 +1,12 @@
+06/01/01 : V0.9
+pullups P0.14
+pullup gumstix I2C on wrong side
+
+06/03/25 :
+fixed pullup P0.14 and gum i2c pullup - Poine
+
+06/04/25:
+change label for FOO connector ( rc receiver )
+add a resitor on the input capture line
+
+add a diode in the USB vbus

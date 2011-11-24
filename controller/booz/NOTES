@@ -1,0 +1,27 @@
+STM32
+  check direction of IMU BOARD smd molex
+  check switch
+
+JTAG:
+  how do i command the gate to disconnect OVERO_RXD3
+  should TCK and RTACK be tied together ?
+  did i connect the overoRXD3_3V3 and OVERO_RXD3_3V3 correctly ? 
+
+
+
+
+
+http://www.hs-augsburg.de/~hhoegl/tmp/epjournal-1/oocd.html
+
+http://www.ethernut.de/en/hardware/turtelizer/index.html
+
+http://www.hs-augsburg.de/~hhoegl/proj/usbjtag/usbjtag.html
+
+http://www.joernonline.de/contrexx2/cms/index.php?page=126
+
+BOM:
+
+R4242 : resistor array 10K: DK U7103CT-ND
+296-9594-1-ND	MAX3221CPWR
+
+

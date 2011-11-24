@@ -1,0 +1,126 @@
+Partlist exported from /home/poine/work/savannah/paparazzi4/trunk/hw/misc/csc.sch at 5/5/09 4:18 PM
+
+Part     Value                  Device            Package         Description                                                               
+#ADC      53047-04               53047-04          53047-04        CONNECTOR                                                                 
+#C1       100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C2       100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C3       100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C4       100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C5       100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C6       100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C7       100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C8       39pF                   C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C9       39pF                   C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+C10                             CPOL-EUSMCD       SMC_D           POLARIZED CAPACITOR, European symbol                                      
+C11                             CPOL-EUSMCD       SMC_D           POLARIZED CAPACITOR, European symbol                                      
+C12                             CPOL-EUSMCD       SMC_D           POLARIZED CAPACITOR, European symbol                                      
+C13                             CPOL-EUSMCD       SMC_D           POLARIZED CAPACITOR, European symbol                                      
+#C14      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C15      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C16      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C17      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C18      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C19      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C20      4.7nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C21      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C22      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C23      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C24      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+C25                             CPOL-EUE/7260-38W E/7260-38W      POLARIZED CAPACITOR, European symbol                                      
+C26                             CPOL-EUE/7260-38W E/7260-38W      POLARIZED CAPACITOR, European symbol                                      
+C27                             CPOL-EUE/7260-38W E/7260-38W      POLARIZED CAPACITOR, European symbol                                      
+C28                             CPOL-EUE/7260-38W E/7260-38W      POLARIZED CAPACITOR, European symbol                                      
+#C29      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C30      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C31      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C32      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C33      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C34      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C35      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C36      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C37      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#C38      100nF                  C-EUC0603K        C0603K          CAPACITOR, European symbol                                                
+#CAN      C-GRID-02-70543        C-GRID-02-70543   70543-02        CONNECTOR                                                                 
+#I2C      53047-04               53047-04          53047-04        CONNECTOR                                                                 
+#IC1      LD117AS18TR            LD117AS18TR       SOT223          Low drop fixed and adjustable positive voltage regulators 1 A             
+#IC2      LD117AS33TR            LD117AS33TR       SOT223          Low drop fixed and adjustable positive voltage regulators 1 A             
+#IC3      LD117AS50TR            LD117AS50TR       SOT223          Low drop fixed and adjustable positive voltage regulators 1 A             
+#IC4      MAX3221EUE             MAX3221EUE        TSSOP16         RS-232 Transceivers with AutoShutdown                                     
+#LED1                            LEDCHIP-LED0805   CHIP-LED0805    LED                                                                       
+#LED2                            LEDCHIP-LED0805   CHIP-LED0805    LED                                                                       
+#LED3                            LEDCHIP-LED0805   CHIP-LED0805    LED                                                                       
+#LED4                            LEDCHIP-LED0805   CHIP-LED0805    LED                                                                       
+#LED5                            LEDCHIP-LED0805   CHIP-LED0805    LED                                                                       
+#MCU1     LPC2129                LPC2129           SQFP-S-10X10-64                                                                           
+#POWER_IN C-GRID-02-70543        C-GRID-02-70543   70543-02        CONNECTOR                                                                 
+#R1       4.7k                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R2       10K                    R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R3       0R/DNP                 R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R4       120R/DNP               R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R5       1k                     R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R6       1k                     R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R7       1k                     R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R8       60R/DNP                R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R9       60R/DNP                R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R10      4.7k/DNP               R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R11      4.7k/DNP               R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R12      150R                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R13      150R                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R14      150R                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R15      150R                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R16      0/DNP                  R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R17      4.7k                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R18      1k                     R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R19      4.7k                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R20      1k                     R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R21      1k                     R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R22      10k                    R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R23      10k                    R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R24      DNP-short for flashing R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R25      4.7k                   R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#R26      1k                     R-EU_R0603        R0603           RESISTOR, European symbol                                                 
+#SERIAL   C-GRID-03-70543        C-GRID-03-70543   70543-03        CONNECTOR                                                                 
+#SERVO_1  C-GRID-03-70553        C-GRID-03-70553   70553-03        CONNECTOR                                                                 
+#SERVO_2  C-GRID-03-70553        C-GRID-03-70553   70553-03        CONNECTOR                                                                 
+#SERVO_3  C-GRID-03-70553        C-GRID-03-70553   70553-03        CONNECTOR                                                                 
+#SERVO_4  C-GRID-03-70553        C-GRID-03-70553   70553-03        CONNECTOR                                                                 
+#SPI      53047-07               53047-07          53047-07        CONNECTOR                                                                 
+#U$1      CRYSTAL_CTS            CRYSTAL_CTS       CTS_CRYSTAL                                                                               
+U$2      CON_MPX                CON_MPX           CON_MPX                                                                                   
+#U1       MCP2551SN              MCP2551SN         SO-08           High Speed CAN tranceiver                                                 
+~NUDEV~1 GND-SERVO_GND          GND-GNDA          GND-GNDA        Example of GND--GNDA NET-Connetor for more info see description in package
+
+
+#
+#
+# DK part number
+#
+#
+
+Index   Quantity        Part Number     Description     Customer Reference      Backorder Quantity      Unit Price USD  Extended Price USD      
+1       30      WM4154-ND       CONN HEADER 3POS .100 R/A 30AU          0       1.11400 $33.42  
+2       12      WM4122-ND       CONN HEADER 2POS .100 VERT 30AU         0       0.98200 $11.78  
+3       14      WM4123-ND       CONN HEADER 3POS .100 VERT 30AU         0       1.07500 $15.05  
+4       10      WM1736-ND       CONN HEADER 7POS 1.25MM VERT TIN                0       0.96300 $9.63   
+5       12      WM1733-ND       CONN HEADER 4POS 1.25MM VERT TIN                0       0.69000 $8.28   
+7       18      475-1410-1-ND   LED CHIPLED 570NM GREEN 0805 SMD                0       0.04200 $0.76   
+8       18      475-1278-1-ND   LED CHIPLED 633NM RED 0805 SMD          0       0.06000 $1.08   
+9       8       568-4315-ND     IC ARM7 MCU FLASH 256K 64-LQFP          0       10.68000        $85.44  
+10      250     399-5089-1-ND   CAP CERAMIC .100UF 50V X7R 0603         0       0.03770 $9.43   
+11      50      490-1341-1-ND   CAP CER 39PF 100V 5% C0G 0603           0       0.05000 $2.50   
+12      50      399-1088-1-ND   CAP 4700PF 50V CERAMIC X7R 0603         0       0.03300 $1.65   
+13      6       LM1117MP-1.8CT-ND       IC REG LDO 800MA 1.8V SOT-223           0       1.35000 $8.10   
+14      6       LM1117MP-3.3CT-ND       IC REG LDO 800MA 3.3V SOT-223           0       1.35000 $8.10   
+15      6       LM1117MP-5.0CT-ND       IC REG LDO 800MA 5.0V SOT-223           0       1.35000 $8.10   
+16      8       MAX3221EUE+-ND  IC TXRX RS-232 W/SHTDWN 16TSSOP         0       4.05000 $32.40  
+17      7       CTX639CT-ND     CRYSTAL 12.000000 MHZ 13PF SMD          0       1.95000 $13.65  
+18      7       MCP2551-I/SN-ND IC TRANSCEIVER CAN HI-SPD 8-SOIC                0       1.32000 $9.24   
+19      100     541-1.00KHCT-ND RES 1.00K OHM 1/10W 1% 0603 SMD         0       0.04360 $4.36   
+20      100     541-4.70KHCT-ND RES 4.70K OHM 1/10W 1% 0603 SMD         0       0.04360 $4.36   
+21      100     541-10.0KHCT-ND RES 10.0K OHM 1/10W 1% 0603 SMD         0       0.04360 $4.36   
+22      100     541-120HCT-ND   RES 120 OHM 1/10W 1% 0603 SMD           0       0.04360 $4.36   
+23      50      541-60.4HCT-ND  RES 60.4 OHM 1/10W 1% 0603 SMD          0       0.04360 $2.18   
+24      100     541-0.0GCT-ND   RES 0.0 OHM 1/10W 5% 0603 SMD           0       0.04000 $4.00   
+25      20      495-2220-1-ND   CAP TANTALUM 100UF 10V 10% SMD          0       0.65300 $13.06  
+26      30      495-1548-1-ND   CAP TANT 100UF 16V 10% LOESR SMD                0       0.90900 $27.27  
+27      50      399-3190-1-ND   CAP CERAMIC .01UF 100V X7R 0603         0       0.49500 $24.75  

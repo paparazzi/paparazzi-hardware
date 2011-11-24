@@ -1,0 +1,22 @@
+http://ourworld.compuserve.com/homepages/Bill_Bowden/page9.htm
+
+
+
+
+This circuit was adapted from the "Toggle Switch Debounced Pushbutton" by John Lundgren. It is particularly useful in controlling a load from several locations where the load may be switched on from one location and switched off from another. Any number of momentary (N/O) switches or push buttons may be connected in parallel.
+
+The circuit uses a N-channel power MOSFET to control the load and can supply fairly large currents depending on the MOSFET used. The IRFZ44 is a 50 amp device available at Radio Shack for $2.99 and the IRF10 is a 4 amp device available for a dollar less.
+
+The combination (10K, 10uF and diode) on the left side of the schematic insures the circuit powers on with the MOSFET turned off and the NPN transistor conducting. These components can be omitted if the initial power-on condition is not a concern. In this initial state (MOSFET off), the voltage at the gate of the MOSFET will be near zero and the voltage on the 1uF capacitor connected to the switches will also be near zero.
+
+When a switch is closed, the 1uF capacitor is connected to the junction of the 220 ohm and 470K resistors causing the voltage to fall to near zero turning off the NPN transistor. As the transistor turns off, the collector voltage rises and turns on the MOSFET when the voltage climbs above about 3 volts. The drain terminal (D) of the MOSFET now moves close to ground preventing the NPN transistor from turning back on. When the switch is opened, the 1uF cap will charge through the 1M and 10K resistors to the full supply voltage. When a switch is again closed, the 1uF capacitor will cause the NPN transistor to turn back on due to the positive voltage on the capacitor applied to the junction of the two resistors (470K, 220). The MOSFET will now turn off and the drain voltage will rise to the supply voltage which in turn keeps the NPN transistor conducting with a positive voltage on the base. The circuit has now returned to the initial turn-on state.
+
+The small (0.1uF) capacitor connected from the transistor base to ground functions to filter out noise that could cause false triggering if the switches are located far away from the circuit using long wires. If false triggering becomes a problem, either the capacitor value (0.1) or the 220 ohm resistor value can be increased to provide better filtering. Increasing these values however will increase the switching times of the MOSFET (rise and fall times) generating more heat when the MOSFET changes state. This is probably not a problem with small loads of a couple amps or less, but may be a problem at higher load currents. The circuit was tested at 1.5 amps using the IRF510 and 6 amps using the IRFZ44.
+
+
+FDB8442 — FAIRCHILD SEMICONDUCTOR — MOSFET 
+Rds on:0.0021Ohm
+Id cont.:80A
+Vds typ.:40V
+D2-PAK
+

@@ -1,0 +1,54 @@
+Partlist exported from /home/poine/work/savannah/paparazzi4/trunk/hw/booz/booz_imu.sch at 4/2/09 2:01 AM
+
+Part     Value             Device       Package    Description                    
+ADC1     MAX1168           MAX1168      QSOP24                                    
+C1       4.7uF             C-EUC0805    C0805      CAPACITOR, European symbol     
+C2       100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C3       100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C4       10nF              C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C5       22nF              C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C6       100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C7       100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C8       22nF              C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C9       100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C10      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C11      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C12      47nF              C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C13      22nF              C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C14      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C15      10nF              C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C16      4.7uF             C-EUC0805    C0805      CAPACITOR, European symbol     
+C17      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C18      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C19      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C20      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C21      4.7uF/Low ESR     C-EUC0805K   C0805K     CAPACITOR, European symbol     
+C22      2.2uF/Low ESR     C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C23      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C24      2.2uF/Low ESR     C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C25      4.7uF/10V/Low ESR C-EUC0805K   C0805K     CAPACITOR, European symbol     
+C26      4.7uF/10V/Low ESR C-EUC0805K   C0805K     CAPACITOR, European symbol     
+C33      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+C34      100nF             C-EUC0603K   C0603K     CAPACITOR, European symbol     
+CON_1    53047-10          53047-10     53047-10   CONNECTOR                      
+GYRO_Z   ADXR              ADXR         BC-32                                     
+IC1      LP2992            MIC5219BM5   SOT23-5    VOLTAGE REGULATOR              
+IC3      LP2992            MIC5219BM5   SOT23-5    VOLTAGE REGULATOR              
+MAG      MS2100            MS2100       QFN20                                     
+R1       43R               R-US_R0603   R0603      RESISTOR, American symbol      
+R2       43R               R-US_R0603   R0603      RESISTOR, American symbol      
+R3       10k               R-US_R0603   R0603      RESISTOR, American symbol      
+R4       39k/DNP           R-US_R0603   R0603      RESISTOR, American symbol      
+R5       10k/DNP           R-US_R0603   R0603      RESISTOR, American symbol      
+R6       12k               R-US_R0603   R0603      RESISTOR, American symbol      
+R7       12k               R-US_R0603   R0603      RESISTOR, American symbol      
+R8       0/DNP             R-US_R0603   R0603      RESISTOR, American symbol      
+R9       0/DNP             R-US_R0603   R0603      RESISTOR, American symbol      
+R10      0/DNP             R-US_R0603   R0603      RESISTOR, American symbol      
+R11      10k/DNP           R-US_R0603   R0603      RESISTOR, American symbol      
+U$1      LM4132            LM4132       SOT23-5L   Precision LDO Voltage Reference
+U$2      ADXL320           ADXL320      LSCFP                                     
+U$3      LM3480            LM3480       SOT23                                     
+X1       53261-10          53261-10     53261-10   CONNECTOR                      
+XZ_BOARD IMU_XZ_2          IMU_XZ_2     IMU_XZ                                    
+YZ_BOARD IMU_YZ_MAG_2      IMU_YZ_MAG_2 IMU_YZ_MAG                                

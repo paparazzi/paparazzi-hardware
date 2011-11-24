@@ -1,0 +1,16 @@
+
+Row {           
+  Col {
+     imu_xy
+    Row { 
+     imu_xz
+     imu_yz
+    }
+  }
+  Col {
+  main Rotate
+  }
+  Col {
+  gps
+  }
+}
