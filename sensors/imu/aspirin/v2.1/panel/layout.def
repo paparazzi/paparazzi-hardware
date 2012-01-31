@@ -1,8 +1,20 @@
 
 Row {
-    mount_rail
-    aspirin
-    aspirin
-    aspirin
-    mount_rail
+    panel_rail
+    Col {
+      aspirin
+      aspirin
+      aspirin
+    }
+    Col {
+      aspirin
+      aspirin
+      aspirin
+    }
+    Col {
+      aspirin
+      aspirin
+      aspirin
+    }
+    panel_rail
 }

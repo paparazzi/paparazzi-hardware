@@ -6,7 +6,7 @@ DEF=layout.def
 
 _panel: 
 	cd ..; make gerber
-	$(GERBMERGE) $(CFG) $(DEF)
+	$(GERBMERGE)  --no-trim-gerber $(CFG) $(DEF)
 
 
 _view:

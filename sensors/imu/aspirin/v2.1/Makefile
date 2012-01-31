@@ -25,7 +25,7 @@
 # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-BRD_SRCS = ./aspirin.brd ../mount_rail/mount_rail.brd
+BRD_SRCS = ./aspirin.brd ../panel_rail/panel_rail.brd ../mount_rail/mount_rail.brd
 
 DIRS =
 
@@ -53,9 +53,9 @@ dirs :
 
 ### GERBER GENERATION
 
-.PRECIOUS : %.cmp %.sol %.stc %.sts %.tplc %.bplc %.bor %.xln %.l02 %.l15 %.tcr %.bcr
+.PRECIOUS : %.cmp %.sol %.stc %.sts %.tplc %.bplc %.bor %.xln %.l02 %.l15 %.tcr %.bcr %.mil %.sor
 
-%.all: %.cmp %.sol %.stc %.sts %.tplc %.bplc %.xln %.bor %.l02 %.l15 %.tcr %.bcr
+%.all: %.cmp %.sol %.stc %.sts %.tplc %.bplc %.xln %.bor %.l02 %.l15 %.tcr %.bcr %.mil %.sor
 	touch $@
 
 # Component side
@@ -97,6 +97,12 @@ dirs :
 # Cream sold. side
 %.bcr : %.brd
 	eagle -X -N -d GERBER_RS274X -o $@ $< bCream
+# Milling layer
+%.mil : %.brd
+	eagle -X -N -d GERBER_RS274X -o $@ $< Milling
+# Scoring layer
+%.sor : %.brd
+	eagle -X -N -d GERBER_RS274X -o $@ $< VScore
 
 
 ### POSTSCRIPT AND PDF GENERATION
@@ -136,6 +142,10 @@ clean:
 	find .. -name '*.l02' -exec rm -f {} \;
 	find .. -name '*.l15' -exec rm -f {} \;
 	find .. -name '*.all' -exec rm -f {} \;
+	find .. -name '*.tcr' -exec rm -f {} \;
+	find .. -name '*.bcr' -exec rm -f {} \;
+	find .. -name '*.mil' -exec rm -f {} \;
+	find .. -name '*.sor' -exec rm -f {} \;
 	@# printable
 	find . -name '*.schematics.ps' -exec rm -f {} \;
 	find . -name '*.schematics.pdf' -exec rm -f {} \;
