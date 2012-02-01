@@ -25,7 +25,7 @@
 # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-BRD_SRCS = ./aspirin.brd ../panel_rail/panel_rail.brd ../mount_rail/mount_rail.brd
+BRD_SRCS = ./aspirin-teardrops.brd ../panel_rail/panel_rail.brd ../mount_rail/mount_rail.brd
 
 DIRS =
 
