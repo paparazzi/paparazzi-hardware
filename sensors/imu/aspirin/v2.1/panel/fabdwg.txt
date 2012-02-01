@@ -3,5 +3,7 @@
 * All holes plated through
 * Drills shown as finished sizes
 * Board thickness 0.062"
+* The edge pads are milled in half 
+  to create castellated holes
 
 
