@@ -22,3 +22,5 @@ merged.*.txt
 *.lbr
 *.tcr
 *.tsv
+*.mil
+*.sor
