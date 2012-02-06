@@ -1693,14 +1693,14 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="GYRO_INT" class="0">
 <segment>
-<wire x1="106.68" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-<label x="99.06" y="142.24" size="1.778" layer="95" rot="R180"/>
-<pinref part="U2" gate="G1" pin="INT"/>
-</segment>
-<segment>
 <wire x1="109.22" y1="53.34" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
 <label x="114.3" y="53.34" size="1.778" layer="95"/>
 <pinref part="ASP1" gate="G$1" pin="GYRO_INT"/>
+</segment>
+<segment>
+<wire x1="193.04" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
+<label x="180.34" y="160.02" size="1.778" layer="95" rot="R180"/>
+<pinref part="U1" gate="G$1" pin="DRDY"/>
 </segment>
 </net>
 <net name="ACC_CS" class="0">
@@ -1717,14 +1717,14 @@ DIN A4, landscape with extra doc field</description>
 </net>
 <net name="MAG_INT" class="0">
 <segment>
-<wire x1="193.04" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
-<label x="180.34" y="160.02" size="1.778" layer="95" rot="R180"/>
-<pinref part="U1" gate="G$1" pin="DRDY"/>
-</segment>
-<segment>
 <wire x1="73.66" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="68.58" y="53.34" size="1.778" layer="95" rot="MR0"/>
 <pinref part="ASP1" gate="G$1" pin="MAG_INT"/>
+</segment>
+<segment>
+<wire x1="106.68" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
+<label x="99.06" y="142.24" size="1.778" layer="95" rot="R180"/>
+<pinref part="U2" gate="G1" pin="INT"/>
 </segment>
 </net>
 <net name="N$3" class="0">
