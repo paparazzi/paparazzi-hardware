@@ -9,7 +9,7 @@
 <grid distance="3" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -120,34 +120,32 @@
 <wire x1="-1.7433" y1="13.5" x2="17.0107" y2="13.5" width="0" layer="20"/>
 <wire x1="17.0107" y1="13.5" x2="17.0107" y2="0" width="0" layer="20"/>
 <wire x1="-1.7433" y1="0" x2="17.0107" y2="0" width="0" layer="20"/>
-<wire x1="8.8739" y1="2.413" x2="9.4073" y2="2.413" width="0.1524" layer="21"/>
-<wire x1="9.4073" y1="2.413" x2="9.2549" y2="2.5654" width="0.1524" layer="21"/>
-<wire x1="9.2549" y1="2.5654" x2="9.2549" y2="2.2606" width="0.1524" layer="21"/>
-<wire x1="9.2549" y1="2.2606" x2="9.4073" y2="2.413" width="0.1524" layer="21"/>
-<wire x1="8.6453" y1="2.6416" x2="8.6453" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="8.6453" y1="3.175" x2="8.7977" y2="3.0226" width="0.1524" layer="21"/>
-<wire x1="8.7977" y1="3.0226" x2="8.4929" y2="3.0226" width="0.1524" layer="21"/>
-<wire x1="8.4929" y1="3.0226" x2="8.6453" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="8.4929" y1="3.3274" x2="8.6453" y2="3.4798" width="0.1524" layer="21"/>
-<wire x1="8.6453" y1="3.4798" x2="8.7977" y2="3.6322" width="0.1524" layer="21"/>
-<wire x1="8.6453" y1="3.4798" x2="8.4929" y2="3.6322" width="0.1524" layer="21"/>
-<wire x1="9.5597" y1="2.5654" x2="9.8645" y2="2.2606" width="0.1524" layer="21"/>
-<wire x1="9.5597" y1="2.2606" x2="9.8645" y2="2.5654" width="0.1524" layer="21"/>
-<wire x1="8.7977" y1="1.651" x2="8.4929" y2="1.651" width="0.1524" layer="21"/>
-<wire x1="8.4929" y1="1.651" x2="8.7977" y2="1.9558" width="0.1524" layer="21"/>
-<wire x1="8.7977" y1="1.9558" x2="8.4929" y2="1.9558" width="0.1524" layer="21"/>
-<wire x1="10.0838" y1="5.0038" x2="13.5636" y2="5.0292" width="0.1524" layer="51"/>
-<wire x1="13.5636" y1="5.0292" x2="13.5636" y2="1.7272" width="0.1524" layer="51"/>
-<wire x1="13.5636" y1="1.7272" x2="10.0838" y2="1.7018" width="0.1524" layer="51"/>
-<wire x1="10.0838" y1="1.7018" x2="10.0838" y2="5.0038" width="0.1524" layer="51"/>
+<wire x1="-0.2701" y1="1.4224" x2="1.3301" y2="1.4224" width="0.1524" layer="21"/>
+<wire x1="1.3301" y1="1.4224" x2="1.0253" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="1.0253" y1="1.651" x2="1.0253" y2="1.1938" width="0.1524" layer="21"/>
+<wire x1="1.0253" y1="1.1938" x2="1.3301" y2="1.4224" width="0.1524" layer="21"/>
+<wire x1="-1.1591" y1="1.8288" x2="-1.1591" y2="3.6068" width="0.1524" layer="21"/>
+<wire x1="-1.1591" y1="3.6068" x2="-0.9305" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-0.9305" y1="3.302" x2="-1.3877" y2="3.302" width="0.1524" layer="21"/>
+<wire x1="-1.3877" y1="3.302" x2="-1.1591" y2="3.6068" width="0.1524" layer="21"/>
+<wire x1="-1.3623" y1="3.8608" x2="-1.1337" y2="4.0894" width="0.1524" layer="21"/>
+<wire x1="-1.1337" y1="4.0894" x2="-0.9051" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="-1.1337" y1="4.0894" x2="-1.3623" y2="4.318" width="0.1524" layer="21"/>
+<wire x1="1.6349" y1="1.651" x2="2.0921" y2="1.1938" width="0.1524" layer="21"/>
+<wire x1="1.6349" y1="1.1938" x2="2.0921" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-0.6384" y1="1.1811" x2="-1.0956" y2="1.1811" width="0.1524" layer="21"/>
+<wire x1="-1.0956" y1="1.1811" x2="-0.6384" y2="1.6383" width="0.1524" layer="21"/>
+<wire x1="-0.6384" y1="1.6383" x2="-1.0956" y2="1.6383" width="0.1524" layer="21"/>
+<wire x1="9.7028" y1="11.5316" x2="13.1826" y2="11.5316" width="0.1524" layer="51"/>
+<wire x1="13.1826" y1="11.5316" x2="13.1826" y2="8.2296" width="0.1524" layer="51"/>
+<wire x1="13.1826" y1="8.2296" x2="9.7028" y2="8.2296" width="0.1524" layer="51"/>
+<wire x1="9.7028" y1="8.2296" x2="9.7028" y2="11.5316" width="0.1524" layer="51"/>
 <wire x1="-1.6163" y1="-1" x2="16.8837" y2="-1" width="2" layer="46"/>
 <wire x1="-1.6163" y1="14.5" x2="16.8837" y2="14.5" width="2" layer="46"/>
 <wire x1="-1.7433" y1="-1" x2="-1.7433" y2="14.5" width="0.254" layer="102"/>
 <wire x1="17.0107" y1="-1" x2="17.0107" y2="14.5" width="0.254" layer="102"/>
-<circle x="-0.6367" y="1.4808" radius="0.5" width="0.1524" layer="21"/>
-<circle x="8.6453" y="2.413" radius="0.0381" width="0.0762" layer="21"/>
-<circle x="8.6453" y="2.413" radius="0.2286" width="0.1524" layer="21"/>
-<circle x="10.6426" y="4.4958" radius="0.27" width="0.1524" layer="51"/>
+<circle x="-0.8653" y="1.4046" radius="0.5" width="0.1524" layer="21"/>
+<circle x="10.2616" y="11.0236" radius="0.27" width="0.1524" layer="51"/>
 <circle x="-0.2286" y="7.0104" radius="0.1778" width="0.3556" layer="29"/>
 <text x="16.5532" y="0.8151" size="0.762" layer="21" font="vector" ratio="20" rot="R90">Aspirin V2.1</text>
 <text x="-0.6426" y="5.1839" size="0.762" layer="21" font="vector" ratio="20" rot="R90">(C) TR 2012</text>
@@ -176,6 +174,7 @@
 <rectangle x1="14.3862" y1="2.5294" x2="14.5132" y2="2.5548" layer="41"/>
 <rectangle x1="11.049" y1="2.3368" x2="13.0048" y2="4.2672" layer="43"/>
 <rectangle x1="14.0462" y1="0.7874" x2="14.1732" y2="0.8128" layer="42"/>
+<circle x="-0.6113" y="1.5062" radius="0.5" width="0.1524" layer="51"/>
 </plain>
 <libraries>
 <library name="v-reg-micrel">
@@ -676,72 +675,72 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 </autorouter>
 <elements>
 <element name="IC1" library="v-reg-micrel" package="SOT23-5" value="LP2992" x="2.1175" y="3.7338" smashed="yes">
-<attribute name="NAME" x="1.2539" y="3.3528" size="0.762" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="1.2539" y="3.3528" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="0.2125" y="0.5588" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="vreg-sot-23-5-3v3" x="2.1175" y="3.7338" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="pel_dipol_comp" package="0402-CAP" value="10nF" x="2.8795" y="6.2484" smashed="yes">
-<attribute name="NAME" x="0.6951" y="5.8928" size="0.762" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="2.2699" y="6.731" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="1.7365" y="4.953" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="cap-cer-0402-10n" x="2.8795" y="6.2484" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="pel_dipol_comp" package="0603-CAP" value="2.2uF/Low ESR" x="-0.2009" y="3.2588" smashed="yes" rot="R90">
-<attribute name="NAME" x="-0.8105" y="2.7" size="0.762" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="-0.8105" y="2.7" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="1.0945" y="2.1158" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="cap-cer-0603-2u2" x="-0.2009" y="3.2588" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="pel_dipol_comp" package="0402-CAP" value="4.7uF/10V/Low ESR" x="-0.2009" y="5.494" smashed="yes" rot="R270">
-<attribute name="NAME" x="-0.7597" y="4.9606" size="0.762" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="-0.7597" y="4.9606" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="-1.4963" y="6.637" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="cap-cer-0402-4n7" x="-0.2009" y="5.494" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C8" library="pel_dipol_comp" package="0402-CAP" value="100n" x="15.1331" y="3.4768" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.4859" y="2.918" size="0.762" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="16.4859" y="2.918" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="16.4285" y="2.3338" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="cap-cer-0402-100n" x="15.1331" y="3.4768" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="pel_dipol_comp" package="0402-CAP" value="2n2" x="15.1331" y="5.4326" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.4707" y="5.1466" size="0.762" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="16.4707" y="5.1466" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="13.8377" y="6.5756" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="cap-cer-0402-2n2" x="15.1331" y="5.4326" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="pel_dipol_comp" package="0402-CAP" value="100n" x="12.7953" y="1.5896" smashed="yes">
-<attribute name="NAME" x="9.7099" y="1.1644" size="0.762" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="11.7927" y="0.3262" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="11.6523" y="0.2942" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="cap-cer-0402-100n" x="12.7953" y="1.5896" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C13" library="pel_dipol_comp" package="0603-CAP" value="4.7uF/10V/Low ESR" x="14.1733" y="9.3414" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.5591" y="10.52" size="0.762" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="14.5591" y="10.52" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="15.4687" y="8.1984" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="cap-cer-0603-4n7" x="14.1733" y="9.3414" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="pel_dipol_comp" package="0603-CAP" value="220n/Low ESR" x="15.6973" y="9.3414" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.1545" y="10.4336" size="0.762" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="16.1545" y="10.4336" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="14.4019" y="10.4844" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="cap-cer-0603-220n" x="15.6973" y="9.3414" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="pel_dipol_comp" package="0402-CAP" value="100n" x="14.45" y="11.5333" smashed="yes">
-<attribute name="NAME" x="13.815" y="10.3141" size="0.762" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="13.5102" y="12.0413" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="13.307" y="10.2379" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="cap-cer-0402-100n" x="14.45" y="11.5333" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC3" library="aspirin" package="SOT23-5" value="&gt;4KBIT SERIAL EEPROM HALF PROTECT" x="1.1091" y="8.8462" smashed="yes" rot="R270">
-<attribute name="NAME" x="1.4901" y="8.1858" size="0.762" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="1.4901" y="8.1858" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="-0.1863" y="6.5602" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="ic-sot-23-5-4k-eeprom" x="1.1091" y="8.8462" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C11" library="pel_dipol_comp" package="0402-CAP" value="100n" x="0" y="11.5062" smashed="yes" rot="R90">
-<attribute name="NAME" x="-1.2446" y="12.7254" size="0.762" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="-1.2446" y="12.7254" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="1.2954" y="10.3632" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="cap-cer-0402-100n" x="0" y="11.5062" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="aspirin" package="PLCC16-HMC5883" value="HMC5883" x="11.4198" y="9.8926" smashed="yes">
-<attribute name="NAME" x="10.8596" y="9.6348" size="0.762" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="11.0374" y="9.6094" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="9.9198" y="7.0176" size="1" layer="27" font="vector" ratio="14"/>
 <attribute name="PARTNO" value="sensr-plcc-16-mag" x="11.4198" y="9.8926" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="aspirin" package="QFN24-NO-PAD" value="MPU-6000" x="11.9732" y="4.8154" smashed="yes">
-<attribute name="NAME" x="11.3436" y="4.4798" size="0.762" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="11.4452" y="4.4544" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="9.7982" y="1.7354" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="sensr-qfn-24-acc-gyro" x="11.9732" y="4.8154" size="1.778" layer="27" display="off"/>
 </element>
@@ -753,19 +752,19 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <attribute name="BOM" value="EXCLUDE" x="4.1148" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP5" library="pel_jumpers" package="0402-SQJMP" value="0/DNP" x="8.6106" y="11.5062" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.3312" y="10.4902" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="7.62" y="12.3444" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="7.239" y="12.6492" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="res-0402-0" x="8.6106" y="11.5062" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DNP" value="T" x="8.6106" y="11.5062" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP4" library="pel_jumpers" package="0402-SQJMP" value="0/DNP" x="7.239" y="11.5062" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.0104" y="10.4394" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="6.1468" y="12.3444" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="5.8674" y="12.6492" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="res-0402-0" x="7.239" y="11.5062" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DNP" value="T" x="7.239" y="11.5062" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC2" library="aspirin" package="QFN-MS5611" value="MS5611" x="5.7912" y="3.81" smashed="yes">
-<attribute name="NAME" x="5.429" y="4.786" size="0.7874" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="5.429" y="4.786" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="2.9912" y="6.31" size="0.8128" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="sensr-qfn-8-baro" x="5.7912" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
@@ -775,7 +774,7 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <attribute name="PARTNO" value="cap-cer-0402-100n" x="5.1816" y="7.1628" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="pel_dipol_comp" package="0402-RES" value="4k7" x="8.6106" y="8.8392" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.7536" y="8.7376" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="8.2296" y="8.382" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="9.906" y="7.6962" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="res-0402-4k7" x="8.6106" y="8.8392" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -784,8 +783,10 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="8.5344" y="7.6962" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="res-0402-4k7" x="7.239" y="8.8392" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="pel_dipol_comp" package="0402-RES" value="4k7" x="1.1684" y="11.5062" rot="R90">
+<element name="R3" library="pel_dipol_comp" package="0402-RES" value="4k7" x="1.1684" y="11.5062" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="res-0402-4k7" x="1.1684" y="11.5062" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="2.3622" y="10.9982" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="VALUE" x="2.4638" y="10.3632" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 </element>
 </elements>
 <signals>
