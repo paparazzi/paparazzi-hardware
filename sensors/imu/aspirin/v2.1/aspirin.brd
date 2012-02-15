@@ -9,7 +9,7 @@
 <grid distance="3" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1040,14 +1040,15 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <wire x1="9.9822" y1="3.5564" x2="9.9732" y2="3.5654" width="0.3048" layer="1"/>
 <wire x1="9.9822" y1="2.8194" x2="9.9822" y2="3.5564" width="0.1524" layer="1"/>
 <wire x1="8.382" y1="4.4196" x2="9.9822" y2="2.8194" width="0.1524" layer="16"/>
-<wire x1="10.1026" y1="11.7348" x2="10.6698" y2="11.1676" width="0.1524" layer="1"/>
-<wire x1="9.6774" y1="11.7348" x2="10.1026" y2="11.7348" width="0.1524" layer="1"/>
-<wire x1="7.239" y1="10.2108" x2="8.763" y2="11.7348" width="0.1524" layer="16"/>
-<wire x1="8.763" y1="11.7348" x2="9.6774" y2="11.7348" width="0.1524" layer="16"/>
+<wire x1="10.5598" y1="11.2776" x2="10.6698" y2="11.1676" width="0.1524" layer="1"/>
+<wire x1="9.525" y1="11.2776" x2="10.5598" y2="11.2776" width="0.1524" layer="1"/>
 <via x="9.9822" y="2.8194" extent="1-16" drill="0.381"/>
 <via x="8.382" y="4.4196" extent="1-16" drill="0.381"/>
 <via x="7.239" y="10.2108" extent="1-16" drill="0.381"/>
-<via x="9.6774" y="11.7348" extent="1-16" drill="0.381"/>
+<via x="9.525" y="11.2776" extent="1-16" drill="0.381"/>
+<wire x1="7.239" y1="10.2108" x2="7.8486" y2="10.8204" width="0.1524" layer="16"/>
+<wire x1="7.8486" y1="10.8204" x2="9.0678" y2="10.8204" width="0.1524" layer="16"/>
+<wire x1="9.0678" y1="10.8204" x2="9.525" y2="11.2776" width="0.1524" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="1"/>
@@ -1056,8 +1057,6 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <contactref element="R1" pad="P$2"/>
 <contactref element="IC2" pad="8"/>
 <wire x1="10.7232" y1="2.8154" x2="10.7286" y2="2.81" width="0.1524" layer="1"/>
-<wire x1="9.705" y1="11.0824" x2="10.1448" y2="10.6426" width="0.1524" layer="1"/>
-<wire x1="8.6106" y1="11.0824" x2="9.705" y2="11.0824" width="0.1524" layer="1"/>
 <wire x1="6.9374" y1="5.6388" x2="6.8912" y2="5.685" width="0.1524" layer="1"/>
 <wire x1="8.382" y1="5.6388" x2="6.9374" y2="5.6388" width="0.1524" layer="1"/>
 <wire x1="8.6106" y1="10.2108" x2="8.6106" y2="11.0824" width="0.1524" layer="1"/>
@@ -1073,6 +1072,8 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <via x="10.1346" y="1.905" extent="1-16" drill="0.381"/>
 <via x="8.382" y="5.6388" extent="1-16" drill="0.381"/>
 <via x="8.6106" y="10.2108" extent="1-16" drill="0.381"/>
+<wire x1="10.1448" y1="10.6426" x2="9.0504" y2="10.6426" width="0.1524" layer="1"/>
+<wire x1="9.0504" y1="10.6426" x2="8.6106" y2="11.0824" width="0.1524" layer="1"/>
 </signal>
 <signal name="ACC_CS">
 <contactref element="U2" pad="8"/>
