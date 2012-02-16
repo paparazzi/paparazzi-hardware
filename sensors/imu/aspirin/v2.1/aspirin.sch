@@ -1175,7 +1175,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="C4" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="2.2uF/Low ESR">
 <attribute name="PARTNO" value="cap-cer-0603-2u2"/>
 </part>
-<part name="C5" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="4.7uF/10V/Low ESR">
+<part name="C5" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="4.7uF/10V/Low ESR">
 <attribute name="PARTNO" value="cap-cer-0402-4n7"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -1266,57 +1266,57 @@ DIN A4, landscape with extra doc field</description>
 </plain>
 <instances>
 <instance part="IC1" gate="G1" x="38.1" y="154.94">
-<attribute name="PARTNO" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="vreg-sot-23-5-3v3" x="38.1" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="24.13" y="143.51" rot="R180">
-<attribute name="PARTNO" x="24.13" y="143.51" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0402-10n" x="24.13" y="143.51" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="40.64" y="135.89"/>
 <instance part="C4" gate="G$1" x="11.43" y="156.21">
-<attribute name="PARTNO" x="11.43" y="156.21" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0603-2u2" x="11.43" y="156.21" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="60.96" y="152.4">
-<attribute name="PARTNO" x="60.96" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0603-4u7" x="60.96" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="162.56" y="104.14" rot="MR0"/>
 <instance part="C8" gate="G$1" x="154.94" y="124.46" rot="MR0">
-<attribute name="PARTNO" x="154.94" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0402-100n" x="154.94" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="170.18" y="124.46" rot="MR0">
-<attribute name="PARTNO" x="170.18" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0402-2n2" x="170.18" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="162.56" y="124.46" rot="MR0">
-<attribute name="PARTNO" x="162.56" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0402-100n" x="162.56" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="226.06" y="142.24" smashed="yes">
 <attribute name="NAME" x="219.964" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="230.759" y="131.064" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="226.06" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0603-4u7" x="226.06" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="226.06" y="121.92" rot="MR0"/>
 <instance part="C14" gate="G$1" x="190.5" y="129.54" rot="R180">
-<attribute name="PARTNO" x="190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0603-220n" x="190.5" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="236.22" y="142.24">
-<attribute name="PARTNO" x="236.22" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0402-100n" x="236.22" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC3" gate="G$1" x="223.52" y="73.66">
-<attribute name="PARTNO" x="223.52" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="ic-sot-23-5-4k-eeprom" x="223.52" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="243.84" y="73.66">
-<attribute name="PARTNO" x="243.84" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0402-100n" x="243.84" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="241.3" y="63.5" rot="MR0"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="162.56" y="0"/>
 <instance part="U1" gate="G$1" x="208.28" y="144.78">
-<attribute name="PARTNO" x="208.28" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="sensr-plcc-16-mag" x="208.28" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U2" gate="G1" x="124.46" y="139.7" rot="MR0">
-<attribute name="PARTNO" x="124.46" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="sensr-qfn-24-acc-gyro" x="124.46" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="ASP1" gate="G$1" x="91.44" y="58.42">
-<attribute name="PARTNO" x="91.44" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="pcb-aspirin" x="91.44" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="91.44" y="40.64" rot="MR0"/>
 <instance part="U$1" gate="G$1" x="243.84" y="43.18">
@@ -1324,28 +1324,28 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="BOM" x="243.84" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="JP5" gate="G$1" x="149.86" y="88.9">
-<attribute name="PARTNO" x="149.86" y="88.9" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="res-0402-0" x="149.86" y="88.9" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DNP" x="152.4" y="91.44" size="1.778" layer="96" display="both"/>
 </instance>
 <instance part="JP4" gate="G$1" x="149.86" y="81.28">
-<attribute name="PARTNO" x="149.86" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="res-0402-0" x="149.86" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DNP" x="152.4" y="83.82" size="1.778" layer="96" display="both"/>
 </instance>
 <instance part="IC2" gate="G$1" x="38.1" y="96.52">
-<attribute name="PARTNO" x="38.1" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="sensr-qfn-8-baro" x="38.1" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="15.24" y="91.44" rot="MR0">
-<attribute name="PARTNO" x="15.24" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0402-100n" x="15.24" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="20.32" y="78.74" rot="MR0"/>
 <instance part="R1" gate="G$1" x="104.14" y="88.9">
-<attribute name="PARTNO" x="104.14" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="res-0402-4k7" x="104.14" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="104.14" y="81.28">
-<attribute name="PARTNO" x="104.14" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="res-0402-4k7" x="104.14" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="203.2" y="68.58" rot="R180">
-<attribute name="PARTNO" x="203.2" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" value="res-0402-4k7" x="203.2" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -1691,7 +1691,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="IC2" gate="G$1" pin="SCLK"/>
 </segment>
 </net>
-<net name="GYRO_INT" class="0">
+<net name="MAG_INT" class="0">
 <segment>
 <wire x1="109.22" y1="53.34" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
 <label x="114.3" y="53.34" size="1.778" layer="95"/>
@@ -1715,7 +1715,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="ASP1" gate="G$1" pin="ACC_CS"/>
 </segment>
 </net>
-<net name="MAG_INT" class="0">
+<net name="MPU_INT" class="0">
 <segment>
 <wire x1="73.66" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="68.58" y="53.34" size="1.778" layer="95" rot="MR0"/>
