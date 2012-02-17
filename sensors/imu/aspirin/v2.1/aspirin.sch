@@ -1703,7 +1703,7 @@ DIN A4, landscape with extra doc field</description>
 <pinref part="U1" gate="G$1" pin="DRDY"/>
 </segment>
 </net>
-<net name="ACC_CS" class="0">
+<net name="MPU_CS" class="0">
 <segment>
 <wire x1="142.24" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
 <label x="144.78" y="144.78" size="1.778" layer="95"/>

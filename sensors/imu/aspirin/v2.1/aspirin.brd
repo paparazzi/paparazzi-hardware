@@ -1073,7 +1073,7 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <wire x1="11.8881" y1="10.6426" x2="10.7937" y2="10.6426" width="0.1524" layer="1"/>
 <wire x1="10.7937" y1="10.6426" x2="10.3539" y2="11.0824" width="0.1524" layer="1"/>
 </signal>
-<signal name="ACC_CS">
+<signal name="MPU_CS">
 <contactref element="U2" pad="8"/>
 <contactref element="ASP1" pad="12"/>
 <wire x1="12.8685" y1="1.905" x2="12.9665" y2="2.003" width="0.1524" layer="1"/>
