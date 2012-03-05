@@ -1176,7 +1176,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="PARTNO" value="cap-cer-0603-2u2"/>
 </part>
 <part name="C5" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="4.7uF/10V/Low ESR">
-<attribute name="PARTNO" value="cap-cer-0402-4n7"/>
+<attribute name="PARTNO" value="cap-cer-0603-4u7"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100n">
@@ -1189,7 +1189,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="PARTNO" value="cap-cer-0402-100n"/>
 </part>
 <part name="C13" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="4.7uF/10V/Low ESR">
-<attribute name="PARTNO" value="cap-cer-0603-4n7"/>
+<attribute name="PARTNO" value="cap-cer-0603-4u7"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="220n/Low ESR">
@@ -1229,9 +1229,11 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="PARTNO" value="res-0402-0"/>
 </part>
 <part name="IC2" library="aspirin" deviceset="MS5611" device="">
+<attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="sensr-qfn-8-baro"/>
 </part>
 <part name="C1" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100n">
+<attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="cap-cer-0402-100n"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -1258,11 +1260,10 @@ DIN A4, landscape with extra doc field</description>
 <text x="26.67" y="113.03" size="5.08" layer="91">Presure</text>
 <text x="187.96" y="25.4" size="1.27" layer="97">License: CC-BY-SA 3.0</text>
 <text x="210.82" y="25.4" size="1.27" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="168.91" y="30.48" size="1.27" layer="97">(C) 2010-2011 Piotr Esden-Tempski &lt;piotr@esden.net&gt;</text>
+<text x="217.17" y="30.48" size="1.27" layer="97">(C) 2010-2011 Piotr Esden-Tempski &lt;piotr@esden.net&gt;</text>
 <text x="168.91" y="33.02" size="1.27" layer="97">(C) 2010-2011 Antoine Drouin &lt;poinix@gmail.com&gt;</text>
 <text x="217.17" y="33.02" size="1.27" layer="97">(C) 2011 Richard Hatano &lt;rhatano@jobyenergy.com&gt;</text>
-<text x="217.17" y="30.48" size="1.27" layer="97">(C) 2011 Joby Robotics &lt;info@jobyrobotics.com&gt;</text>
-<text x="168.91" y="27.94" size="1.27" layer="97">(C) 2011 Transition Robotics &lt;info@transition-robotics.com&gt;</text>
+<text x="168.91" y="30.48" size="1.27" layer="97">(C) 2011 Transition Robotics &lt;info@transition-robotics.com&gt;</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G1" x="38.1" y="154.94">
@@ -1276,7 +1277,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="PARTNO" value="cap-cer-0603-2u2" x="11.43" y="156.21" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="60.96" y="152.4">
-<attribute name="PARTNO" value="cap-cer-0603-4u7" x="60.96" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0603-4n7" x="60.96" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="162.56" y="104.14" rot="MR0"/>
 <instance part="C8" gate="G$1" x="154.94" y="124.46" rot="MR0">
@@ -1291,7 +1292,7 @@ DIN A4, landscape with extra doc field</description>
 <instance part="C13" gate="G$1" x="226.06" y="142.24" smashed="yes">
 <attribute name="NAME" x="219.964" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="230.759" y="131.064" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" value="cap-cer-0603-4u7" x="226.06" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" value="cap-cer-0603-4n7" x="226.06" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="226.06" y="121.92" rot="MR0"/>
 <instance part="C14" gate="G$1" x="190.5" y="129.54" rot="R180">
@@ -1331,11 +1332,15 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="PARTNO" value="res-0402-0" x="149.86" y="81.28" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DNP" x="152.4" y="83.82" size="1.778" layer="96" display="both"/>
 </instance>
-<instance part="IC2" gate="G$1" x="38.1" y="96.52">
+<instance part="IC2" gate="G$1" x="38.1" y="96.52" smashed="yes">
 <attribute name="PARTNO" value="sensr-qfn-8-baro" x="38.1" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="DNP" x="38.1" y="86.36" size="1.778" layer="96" display="both"/>
+<attribute name="NAME" x="27.94" y="106.68" size="1.27" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="27.94" y="86.36" size="1.27" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="15.24" y="91.44" rot="MR0">
 <attribute name="PARTNO" value="cap-cer-0402-100n" x="15.24" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="DNP" x="7.62" y="93.98" size="1.778" layer="96" rot="MR270" display="both"/>
 </instance>
 <instance part="GND4" gate="1" x="20.32" y="78.74" rot="MR0"/>
 <instance part="R1" gate="G$1" x="104.14" y="88.9">
