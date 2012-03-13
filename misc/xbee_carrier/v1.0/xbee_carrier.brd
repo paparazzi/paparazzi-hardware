@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -669,11 +669,11 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="3mil"/>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="20mil"/>
+<param name="mlViaStopLimit" value="0.6mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1139,6 +1139,29 @@ design rules under a new name.</description>
 <wire x1="32.504" y1="17.264" x2="30.48" y2="15.24" width="0.254" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="19,1,89132ba406b05cc7"/>
+<approved hash="19,1,f5af57807a94207b"/>
+<approved hash="19,1,f7f45f8240aca01d"/>
+<approved hash="19,1,9bb033ae2c80cc59"/>
+<approved hash="19,1,f10093b8de99f4ef"/>
+<approved hash="19,1,8dbcef9ca2bd8853"/>
+<approved hash="19,1,0fe13797d8c47870"/>
+<approved hash="19,1,63a55bbbb4e81434"/>
+<approved hash="19,1,b9781bcd56ec6c92"/>
+<approved hash="19,1,c5c467e92ac8102e"/>
+<approved hash="19,1,878baffc90d3f064"/>
+<approved hash="19,1,ebcfc3d0fcff9c20"/>
+<approved hash="19,1,5dd1bff9d2d3783c"/>
+<approved hash="19,1,216dc3ddaef70480"/>
+<approved hash="5,1,87be553d9cde4a90"/>
+<approved hash="19,1,33f36bee84c32413"/>
+<approved hash="19,1,5fb707c2e8ef4857"/>
+<approved hash="19,1,55e537ca1ae5c00b"/>
+<approved hash="19,1,29594bee66c1bcb7"/>
+<approved hash="19,1,7bea13f58cdf2c03"/>
+<approved hash="19,1,17ae7fd9e0f34047"/>
+</errors>
 </board>
 </drawing>
 </eagle>
