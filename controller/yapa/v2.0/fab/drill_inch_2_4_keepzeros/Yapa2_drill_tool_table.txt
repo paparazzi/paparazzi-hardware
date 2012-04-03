@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Yapa2.PcbDoc   20-4-2011  10:44:57
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Yapa2.TXT
+EIA File   : Yapa2.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        15.7mil (0.4mm)      Round          94               301.92 Inch (7668.68 mm)
+T2        19.7mil (0.5mm)      Round          48               300.80 Inch (7640.38 mm)
+T3        28mil (0.7112mm)         Round          49               300.81 Inch (7640.45 mm)
+T4        35.4mil (0.9mm)      Round          86               299.60 Inch (7609.80 mm)
+T5        51.2mil (1.3mm)      Round          5                288.97 Inch (7339.76 mm)
+T6        126mil (3.2mm)        Round          4                293.19 Inch (7447.04 mm)
+---------------------------------------------------------------------------
+Totals                                            286              1785.28 Inch (45346.11 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01
