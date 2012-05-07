@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5249,14 +5249,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="CON_I2C2" library="pel_molex" deviceset="CONN_4-1" device="-53398">
 <attribute name="PARTNO" value="conn-picoblade-smd-0.05in-4-vert"/>
 </part>
-<part name="CON_ANALOG2" library="pel_molex" deviceset="CONN_6-1" device="-53398">
+<part name="CON_ANALOG1" library="pel_molex" deviceset="CONN_6-1" device="-53398">
 <attribute name="PARTNO" value="conn-picoblade-smd-0.05in-6-vert"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
+<part name="LED2" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
 <attribute name="PARTNO" value="led-0402-green"/>
 </part>
 <part name="R8" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="300">
@@ -5286,7 +5286,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="CON_USB_MICRO" library="open-bldc" deviceset="ZX62-B-5PA" device="">
 <attribute name="PARTNO" value="conn-smd-usb-micro-b"/>
 </part>
-<part name="CON_ANALOG1" library="pel_molex" deviceset="CONN_6-1" device="-53398">
+<part name="CON_ANALOG2" library="pel_molex" deviceset="CONN_6-1" device="-53398">
 <attribute name="PARTNO" value="conn-picoblade-smd-0.05in-6-vert"/>
 </part>
 <part name="R17" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="10k">
@@ -5317,10 +5317,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="JP6" library="pel_jumpers" deviceset="SQ_JMP" device="-0402" value="0/DNP">
 <attribute name="PARTNO" value="res-0402-0"/>
 </part>
-<part name="LED4" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
+<part name="LEDVIN" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
 <attribute name="PARTNO" value="led-0402-green"/>
 </part>
-<part name="LED3" library="pel_dipol_comp" deviceset="LED" device="-0402" value="BLU">
+<part name="LED6" library="pel_dipol_comp" deviceset="LED" device="-0402" value="BLU">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="led-0402-blue"/>
 </part>
@@ -5328,7 +5328,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="res-0402-80"/>
 </part>
-<part name="LED5" library="pel_dipol_comp" deviceset="LED" device="-0402" value="BLU">
+<part name="LED7" library="pel_dipol_comp" deviceset="LED" device="-0402" value="BLU">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="led-0402-blue"/>
 </part>
@@ -5336,7 +5336,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="res-0402-80"/>
 </part>
-<part name="LED6" library="pel_dipol_comp" deviceset="LED" device="-0402" value="BLU">
+<part name="LED8" library="pel_dipol_comp" deviceset="LED" device="-0402" value="BLU">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="led-0402-blue"/>
 </part>
@@ -5344,13 +5344,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="res-0402-80"/>
 </part>
-<part name="LED7" library="pel_dipol_comp" deviceset="LED" device="-0402" value="RED">
+<part name="LED4" library="pel_dipol_comp" deviceset="LED" device="-0402" value="RED">
 <attribute name="PARTNO" value="led-0402-red"/>
 </part>
 <part name="R37" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="300">
 <attribute name="PARTNO" value="res-0402-300"/>
 </part>
-<part name="LED8" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
+<part name="LED3" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
 <attribute name="PARTNO" value="led-0402-green"/>
 </part>
 <part name="R38" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="300">
@@ -5361,13 +5361,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="pel_dipol_comp" deviceset="LED" device="-0402" value="RED">
+<part name="LED1" library="pel_dipol_comp" deviceset="LED" device="-0402" value="RED">
 <attribute name="PARTNO" value="led-0402-red"/>
 </part>
 <part name="R10" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="300">
 <attribute name="PARTNO" value="res-0402-300"/>
 </part>
-<part name="LED9" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
+<part name="LED5" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GRN">
 <attribute name="PARTNO" value="led-0402-green"/>
 </part>
 <part name="R12" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="300">
@@ -6954,8 +6954,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <plain>
 <text x="15.24" y="146.05" size="3.81" layer="91">SPI</text>
 <text x="69.85" y="140.97" size="3.81" layer="91">I2C2</text>
-<text x="11.43" y="248.92" size="3.81" layer="91" rot="MR180">ANALOG1</text>
-<text x="11.43" y="213.36" size="3.81" layer="91">ANALOG2</text>
+<text x="11.43" y="248.92" size="3.81" layer="91" rot="MR180">ANALOG2</text>
+<text x="11.43" y="213.36" size="3.81" layer="91">ANALOG1</text>
 <text x="12.7" y="179.07" size="3.81" layer="91">GPIO1</text>
 <text x="71.12" y="247.65" size="3.81" layer="91">UART3</text>
 <text x="71.12" y="223.52" size="3.81" layer="91">UART2</text>
@@ -7073,14 +7073,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="CON_I2C2" gate="G$1" x="77.47" y="133.35" rot="R180">
 <attribute name="PARTNO" x="77.47" y="133.35" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="CON_ANALOG2" gate="G$1" x="20.32" y="203.2" rot="R180">
+<instance part="CON_ANALOG1" gate="G$1" x="20.32" y="203.2" rot="R180">
 <attribute name="PARTNO" x="20.32" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="40.64" y="250.19" rot="MR180"/>
 <instance part="GND11" gate="1" x="40.64" y="214.63" rot="MR180"/>
 <instance part="GND13" gate="1" x="40.64" y="179.07" rot="MR180"/>
 <instance part="GND16" gate="1" x="39.37" y="147.32" rot="MR180"/>
-<instance part="LED1" gate="G$1" x="166.37" y="219.71">
+<instance part="LED2" gate="G$1" x="166.37" y="219.71">
 <attribute name="PARTNO" x="166.37" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="166.37" y="228.6" smashed="yes" rot="R90">
@@ -7116,7 +7116,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="CON_USB_MICRO" gate="G$1" x="22.86" y="34.29" rot="MR0">
 <attribute name="PARTNO" x="22.86" y="34.29" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="CON_ANALOG1" gate="G$1" x="20.32" y="233.68" rot="R180">
+<instance part="CON_ANALOG2" gate="G$1" x="20.32" y="233.68" rot="R180">
 <attribute name="PARTNO" x="20.32" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="129.54" y="156.21" rot="R270">
@@ -7153,12 +7153,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="JP6" gate="G$1" x="114.3" y="237.49" rot="R180">
 <attribute name="PARTNO" x="114.3" y="237.49" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="LED4" gate="G$1" x="181.61" y="218.44">
+<instance part="LEDVIN" gate="G$1" x="181.61" y="218.44">
 <attribute name="PARTNO" x="181.61" y="218.44" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="LED3" gate="G$1" x="199.39" y="219.71" smashed="yes">
-<attribute name="NAME" x="201.168" y="218.694" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.168" y="216.535" size="1.778" layer="96"/>
+<instance part="LED6" gate="G$1" x="199.39" y="219.71" smashed="yes">
+<attribute name="NAME" x="202.946" y="215.138" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="205.232" y="215.011" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="199.39" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="194.31" y="222.25" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
@@ -7168,9 +7168,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="PARTNO" x="199.39" y="228.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="195.58" y="233.68" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
-<instance part="LED5" gate="G$1" x="213.36" y="219.71" smashed="yes">
-<attribute name="NAME" x="215.138" y="218.694" size="1.778" layer="95"/>
-<attribute name="VALUE" x="215.138" y="216.535" size="1.778" layer="96"/>
+<instance part="LED7" gate="G$1" x="213.36" y="219.71" smashed="yes">
+<attribute name="NAME" x="216.916" y="215.138" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="219.202" y="215.265" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="213.36" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="208.28" y="222.25" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
@@ -7180,9 +7180,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="PARTNO" x="213.36" y="228.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="209.55" y="233.68" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
-<instance part="LED6" gate="G$1" x="226.06" y="219.71" smashed="yes">
-<attribute name="NAME" x="229.108" y="218.694" size="1.778" layer="95"/>
-<attribute name="VALUE" x="229.108" y="216.535" size="1.778" layer="96"/>
+<instance part="LED8" gate="G$1" x="226.06" y="219.71" smashed="yes">
+<attribute name="NAME" x="229.616" y="214.884" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="231.902" y="215.011" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="226.06" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="220.98" y="222.25" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
@@ -7192,7 +7192,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="PARTNO" x="226.06" y="228.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="222.25" y="233.68" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
-<instance part="LED7" gate="G$1" x="238.76" y="219.71">
+<instance part="LED4" gate="G$1" x="238.76" y="219.71">
 <attribute name="PARTNO" x="238.76" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R37" gate="G$1" x="238.76" y="228.6" smashed="yes" rot="R90">
@@ -7200,7 +7200,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="VALUE" x="240.03" y="226.822" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="238.76" y="228.6" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="LED8" gate="G$1" x="251.46" y="219.71">
+<instance part="LED3" gate="G$1" x="251.46" y="219.71">
 <attribute name="PARTNO" x="251.46" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="251.46" y="228.6" smashed="yes" rot="R90">
@@ -7215,7 +7215,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 <instance part="GND15" gate="1" x="181.61" y="208.28"/>
 <instance part="GND17" gate="1" x="114.3" y="181.61" rot="MR0"/>
-<instance part="LED2" gate="G$1" x="264.16" y="219.71">
+<instance part="LED1" gate="G$1" x="264.16" y="219.71">
 <attribute name="PARTNO" x="264.16" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="264.16" y="228.6" smashed="yes" rot="R90">
@@ -7223,7 +7223,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="VALUE" x="265.43" y="226.822" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="264.16" y="228.6" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="LED9" gate="G$1" x="276.86" y="219.71">
+<instance part="LED5" gate="G$1" x="276.86" y="219.71">
 <attribute name="PARTNO" x="276.86" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="276.86" y="228.6" smashed="yes" rot="R90">
@@ -7322,12 +7322,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="25.4" y1="238.76" x2="40.64" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="238.76" x2="40.64" y2="247.65" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="CON_ANALOG1" gate="G$1" pin="1"/>
+<pinref part="CON_ANALOG2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="208.28" x2="40.64" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="208.28" x2="40.64" y2="212.09" width="0.1524" layer="91"/>
-<pinref part="CON_ANALOG2" gate="G$1" pin="1"/>
+<pinref part="CON_ANALOG1" gate="G$1" pin="1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7378,7 +7378,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <wire x1="181.61" y1="210.82" x2="181.61" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="LEDVIN" gate="G$1" pin="C"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7411,12 +7411,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="25.4" y1="236.22" x2="40.64" y2="236.22" width="0.1524" layer="91"/>
 <label x="40.64" y="236.22" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG1" gate="G$1" pin="2"/>
+<pinref part="CON_ANALOG2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="205.74" x2="40.64" y2="205.74" width="0.1524" layer="91"/>
 <label x="40.64" y="205.74" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG2" gate="G$1" pin="2"/>
+<pinref part="CON_ANALOG1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="171.45" x2="40.64" y2="171.45" width="0.1524" layer="91"/>
@@ -7561,12 +7561,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="25.4" y1="233.68" x2="40.64" y2="233.68" width="0.1524" layer="91"/>
 <label x="40.64" y="233.68" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG1" gate="G$1" pin="3"/>
+<pinref part="CON_ANALOG2" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="203.2" x2="40.64" y2="203.2" width="0.1524" layer="91"/>
 <label x="40.64" y="203.2" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG2" gate="G$1" pin="3"/>
+<pinref part="CON_ANALOG1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -7748,7 +7748,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="166.37" y1="223.52" x2="166.37" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="FT_USB_DM" class="0">
@@ -7869,74 +7869,74 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="166.37" y1="214.63" x2="166.37" y2="213.36" width="0.1524" layer="91"/>
 <label x="166.37" y="213.36" size="1.778" layer="95" rot="R270"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
 <segment>
 <wire x1="25.4" y1="226.06" x2="40.64" y2="226.06" width="0.1524" layer="91"/>
 <label x="40.64" y="226.06" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG1" gate="G$1" pin="6"/>
+<pinref part="CON_ANALOG2" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="ADC_3" class="0">
 <segment>
 <wire x1="25.4" y1="195.58" x2="40.64" y2="195.58" width="0.1524" layer="91"/>
 <label x="40.64" y="195.58" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG2" gate="G$1" pin="6"/>
+<pinref part="CON_ANALOG1" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="214.63" x2="226.06" y2="208.28" width="0.1524" layer="91"/>
 <label x="226.06" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="LED8" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="ADC_2" class="0">
 <segment>
 <wire x1="25.4" y1="198.12" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
 <label x="40.64" y="198.12" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG2" gate="G$1" pin="5"/>
+<pinref part="CON_ANALOG1" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="213.36" y1="214.63" x2="213.36" y2="208.28" width="0.1524" layer="91"/>
 <label x="213.36" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="ADC_1" class="0">
 <segment>
 <wire x1="25.4" y1="200.66" x2="40.64" y2="200.66" width="0.1524" layer="91"/>
 <label x="40.64" y="200.66" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG2" gate="G$1" pin="4"/>
+<pinref part="CON_ANALOG1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="199.39" y1="214.63" x2="199.39" y2="208.28" width="0.1524" layer="91"/>
 <label x="199.39" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="ADC_4" class="0">
 <segment>
 <wire x1="25.4" y1="231.14" x2="40.64" y2="231.14" width="0.1524" layer="91"/>
 <label x="40.64" y="231.14" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG1" gate="G$1" pin="4"/>
+<pinref part="CON_ANALOG2" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <wire x1="238.76" y1="214.63" x2="238.76" y2="208.28" width="0.1524" layer="91"/>
 <label x="238.76" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="LED7" gate="G$1" pin="C"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="ADC_6" class="0">
 <segment>
 <wire x1="25.4" y1="228.6" x2="40.64" y2="228.6" width="0.1524" layer="91"/>
 <label x="40.64" y="228.6" size="1.778" layer="95"/>
-<pinref part="CON_ANALOG1" gate="G$1" pin="5"/>
+<pinref part="CON_ANALOG2" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="251.46" y1="214.63" x2="251.46" y2="208.28" width="0.1524" layer="91"/>
 <label x="251.46" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="LED8" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="V_IN" class="0">
@@ -8030,7 +8030,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="N$12" class="0">
 <segment>
 <wire x1="181.61" y1="220.98" x2="181.61" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="LEDVIN" gate="G$1" pin="A"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -8052,35 +8052,35 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="199.39" y1="223.52" x2="199.39" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <wire x1="213.36" y1="223.52" x2="213.36" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <wire x1="226.06" y1="223.52" x2="226.06" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <wire x1="238.76" y1="223.52" x2="238.76" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="1"/>
-<pinref part="LED7" gate="G$1" pin="A"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <wire x1="251.46" y1="223.52" x2="251.46" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="1"/>
-<pinref part="LED8" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="UART3_TX" class="0">
@@ -8108,28 +8108,28 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="264.16" y1="223.52" x2="264.16" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="LED1" class="0">
 <segment>
 <wire x1="264.16" y1="214.63" x2="264.16" y2="208.28" width="0.1524" layer="91"/>
 <label x="264.16" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <wire x1="276.86" y1="223.52" x2="276.86" y2="222.25" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="LED9" gate="G$1" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="LED2" class="0">
 <segment>
 <wire x1="276.86" y1="214.63" x2="276.86" y2="208.28" width="0.1524" layer="91"/>
 <label x="276.86" y="205.74" size="1.778" layer="95" rot="R90"/>
-<pinref part="LED9" gate="G$1" pin="C"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="U1_U5_POW" class="0">

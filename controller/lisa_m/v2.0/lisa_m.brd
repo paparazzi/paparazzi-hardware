@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -628,8 +628,8 @@
 <text x="45.5676" y="6.2484" size="0.8128" layer="21" font="vector" ratio="16">S6</text>
 <text x="43.3578" y="6.2484" size="0.8128" layer="21" font="vector" ratio="16">S7</text>
 <text x="37.815" y="5.969" size="0.8128" layer="21" font="vector" ratio="20">VS</text>
-<text x="13.1882" y="17.1196" size="0.8128" layer="21" font="vector" ratio="16" rot="R270">ALOG1</text>
-<text x="18.2682" y="17.1704" size="0.8128" layer="21" font="vector" ratio="16" rot="R270">ALOG2</text>
+<text x="13.1882" y="17.1196" size="0.8128" layer="21" font="vector" ratio="16" rot="R270">ALOG2</text>
+<text x="18.2682" y="17.1704" size="0.8128" layer="21" font="vector" ratio="16" rot="R270">ALOG1</text>
 <text x="33.0962" y="0.6152" size="0.8128" layer="22" font="vector" ratio="18" rot="MR90">UART1</text>
 <text x="34.3606" y="3.5052" size="0.762" layer="22" font="vector" ratio="20" rot="MR180">3V3</text>
 <text x="37.2054" y="3.9862" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">TX</text>
@@ -669,9 +669,9 @@
 <text x="35.6616" y="24.6126" size="0.762" layer="22" font="vector" ratio="20" rot="MR270">SDA</text>
 <text x="34.132" y="21.0312" size="0.762" layer="22" font="vector" ratio="20" rot="MR0">(C)TR</text>
 <text x="30.8554" y="21.0312" size="0.762" layer="22" font="vector" ratio="20" rot="MR0">2011</text>
-<text x="10.7386" y="8.6233" size="0.762" layer="21" font="vector" ratio="20">L1</text>
-<text x="10.3068" y="7.493" size="0.762" layer="21" font="vector" ratio="20">L2</text>
-<text x="22.5242" y="11.5697" size="0.762" layer="21" font="vector" ratio="20">L3</text>
+<text x="10.7386" y="8.6233" size="0.762" layer="21" font="vector" ratio="20">L2</text>
+<text x="10.3068" y="7.493" size="0.762" layer="21" font="vector" ratio="20">L1</text>
+<text x="22.5242" y="11.5697" size="0.762" layer="21" font="vector" ratio="20">L6</text>
 <text x="17.4244" y="5.7221" size="0.762" layer="21" font="vector" ratio="20" rot="R90">LVIN</text>
 <text x="25.7754" y="19.7866" size="0.762" layer="22" font="vector" ratio="20" rot="MR0">3V3</text>
 <text x="48.9204" y="6.2484" size="0.8128" layer="22" font="vector" ratio="18" rot="MR0">S7</text>
@@ -724,11 +724,11 @@
 <text x="30.48" y="9.9822" size="0.635" layer="25" font="vector" ratio="16" rot="R270">JTAG</text>
 <text x="24.8412" y="9.906" size="0.635" layer="25" font="vector" ratio="16">Q1</text>
 <text x="3.2766" y="1.524" size="0.635" layer="25" font="vector" ratio="16" rot="R90">CON_USB_MICRO</text>
-<text x="11.399" y="9.6647" size="0.762" layer="21" font="vector" ratio="20">L8</text>
-<text x="11.399" y="10.8077" size="0.762" layer="21" font="vector" ratio="20">L7</text>
-<text x="11.399" y="11.9507" size="0.762" layer="21" font="vector" ratio="20">L9</text>
-<text x="22.5242" y="10.3505" size="0.762" layer="21" font="vector" ratio="20">L5</text>
-<text x="22.5242" y="9.2075" size="0.762" layer="21" font="vector" ratio="20">L6</text>
+<text x="11.399" y="9.6647" size="0.762" layer="21" font="vector" ratio="20">L3</text>
+<text x="11.399" y="10.8077" size="0.762" layer="21" font="vector" ratio="20">L4</text>
+<text x="11.399" y="11.9507" size="0.762" layer="21" font="vector" ratio="20">L5</text>
+<text x="22.5242" y="10.3505" size="0.762" layer="21" font="vector" ratio="20">L7</text>
+<text x="22.5242" y="9.2075" size="0.762" layer="21" font="vector" ratio="20">L8</text>
 <text x="16.6878" y="2.9154" size="0.8128" layer="22" font="vector" ratio="18" rot="MR270">USB</text>
 <text x="17.1648" y="0.381" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">GND</text>
 <text x="20.1366" y="0.381" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">UBUS</text>
@@ -2209,12 +2209,12 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="41.2186" y="26.2128" size="0.635" layer="28" font="vector" ratio="16" rot="R180"/>
 <attribute name="PARTNO" value="conn-picoblade-smd-0.05in-4-vert" x="37.3578" y="22.0218" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="CON_ANALOG2" library="pel_molex" package="PB-53398-06" value="" x="20.5938" y="12.6492" smashed="yes" rot="R270">
+<element name="CON_ANALOG1" library="pel_molex" package="PB-53398-06" value="" x="20.5938" y="12.6492" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.3228" y="9.4488" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="18.5618" y="13.97" size="0.635" layer="28" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="conn-picoblade-smd-0.05in-6-vert" x="20.5938" y="12.6492" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED1" library="pel_dipol_comp" package="0402-LED" value="GRN" x="9.6012" y="8.9154" smashed="yes">
+<element name="LED2" library="pel_dipol_comp" package="0402-LED" value="GRN" x="9.6012" y="8.9154" smashed="yes">
 <attribute name="NAME" x="10.5156" y="8.6106" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="8.4582" y="7.62" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-green" x="9.6012" y="8.9154" size="1.778" layer="27" display="off"/>
@@ -2273,7 +2273,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <element name="CON_USB_MICRO" library="open-bldc" package="ZX62-B-5PA" value="ZX62-B-5PA" x="1.62" y="5.1816" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="conn-smd-usb-micro-b" x="1.62" y="5.1816" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="CON_ANALOG1" library="pel_molex" package="PB-53398-06" value="" x="15.4122" y="12.6492" smashed="yes" rot="R270">
+<element name="CON_ANALOG2" library="pel_molex" package="PB-53398-06" value="" x="15.4122" y="12.6492" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.4724" y="16.0782" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="13.3802" y="13.97" size="0.635" layer="28" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="conn-picoblade-smd-0.05in-6-vert" x="15.4122" y="12.6492" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2327,7 +2327,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="40.0248" y="0.3048" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 <attribute name="PARTNO" value="res-0402-0" x="38.8818" y="1.6002" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="LED4" library="pel_dipol_comp" package="0402-LED" value="GRN" x="16.9474" y="4.7244" smashed="yes" rot="R270">
+<element name="LEDVIN" library="pel_dipol_comp" package="0402-LED" value="GRN" x="16.9474" y="4.7244" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.1902" y="5.715" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="15.652" y="5.8674" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="led-0402-green" x="16.9474" y="4.7244" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2365,7 +2365,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="17.145" y="3.5814" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="res-0402-10k" x="15.8496" y="4.7244" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED3" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="12.0396" smashed="yes">
+<element name="LED6" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="12.0396" smashed="yes">
 <attribute name="NAME" x="19.304" y="16.383" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="19.0754" y="10.7442" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="12.0396" size="1.778" layer="27" display="off"/>
@@ -2377,7 +2377,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="PARTNO" value="res-0402-80" x="18.288" y="12.0396" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DNP" value="T" x="18.288" y="12.0396" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED5" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="10.922" smashed="yes">
+<element name="LED7" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="10.922" smashed="yes">
 <attribute name="NAME" x="19.304" y="14.8844" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="19.0754" y="9.6266" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="10.922" size="1.778" layer="27" display="off"/>
@@ -2389,7 +2389,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="PARTNO" value="res-0402-80" x="18.288" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DNP" value="T" x="18.288" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED6" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="9.525" smashed="yes">
+<element name="LED8" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="9.525" smashed="yes">
 <attribute name="NAME" x="19.304" y="13.2588" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="19.0754" y="8.2296" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="9.525" size="1.778" layer="27" display="off"/>
@@ -2401,7 +2401,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="PARTNO" value="res-0402-80" x="18.288" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DNP" value="T" x="18.288" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED7" library="pel_dipol_comp" package="0402-LED" value="RED" x="10.5156" y="11.2014" smashed="yes">
+<element name="LED4" library="pel_dipol_comp" package="0402-LED" value="RED" x="10.5156" y="11.2014" smashed="yes">
 <attribute name="NAME" x="11.5824" y="10.9728" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="9.3726" y="9.906" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-red" x="10.5156" y="11.2014" size="1.778" layer="27" display="off"/>
@@ -2411,7 +2411,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="9.6012" y="12.4968" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="PARTNO" value="res-0402-300" x="8.4582" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED8" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="10.0584" smashed="yes">
+<element name="LED3" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="10.0584" smashed="yes">
 <attribute name="NAME" x="11.5824" y="9.8298" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="9.3726" y="8.763" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-green" x="10.5156" y="10.0584" size="1.778" layer="27" display="off"/>
@@ -2436,7 +2436,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="24.1046" y="11.7094" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="cap-cer-0402-10p" x="25.2476" y="13.0048" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED2" library="pel_dipol_comp" package="0402-LED" value="RED" x="9.2964" y="7.7724" smashed="yes">
+<element name="LED1" library="pel_dipol_comp" package="0402-LED" value="RED" x="9.2964" y="7.7724" smashed="yes">
 <attribute name="NAME" x="10.3632" y="7.4676" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="8.1534" y="6.477" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-red" x="9.2964" y="7.7724" size="1.778" layer="27" display="off"/>
@@ -2446,7 +2446,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="8.4582" y="9.0678" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="PARTNO" value="res-0402-300" x="7.3152" y="7.7724" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED9" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="12.3444" smashed="yes">
+<element name="LED5" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="12.3444" smashed="yes">
 <attribute name="NAME" x="11.5824" y="12.0396" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="9.3726" y="11.049" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="led-0402-green" x="10.5156" y="12.3444" size="1.778" layer="27" display="off"/>
@@ -2621,7 +2621,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <contactref element="CON_UART3" pad="1"/>
 <contactref element="CON_UART2" pad="1"/>
 <contactref element="CON_I2C2" pad="1"/>
-<contactref element="CON_ANALOG2" pad="1"/>
+<contactref element="CON_ANALOG1" pad="1"/>
 <contactref element="IMU" pad="P$1"/>
 <contactref element="IMU" pad="P$14"/>
 <contactref element="CON_SPI" pad="1"/>
@@ -2632,14 +2632,14 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <contactref element="C31" pad="P$1"/>
 <contactref element="CON_UART1/5" pad="1"/>
 <contactref element="CON_USB_MICRO" pad="PIN_5"/>
-<contactref element="CON_ANALOG1" pad="1"/>
+<contactref element="CON_ANALOG2" pad="1"/>
 <contactref element="R18" pad="P$2"/>
 <contactref element="IMU" pad="P$7"/>
 <contactref element="CON_CAN/I2C1" pad="1"/>
 <contactref element="C3" pad="P$2"/>
 <contactref element="U2" pad="12"/>
 <contactref element="R30" pad="P$1"/>
-<contactref element="LED4" pad="C"/>
+<contactref element="LEDVIN" pad="C"/>
 <contactref element="CON_UART1/5" pad="4"/>
 <contactref element="C4" pad="P$1"/>
 <contactref element="C6" pad="P$2"/>
@@ -2904,14 +2904,14 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <contactref element="C10" pad="P$2"/>
 <contactref element="C9" pad="P$1"/>
 <contactref element="CON_I2C2" pad="2"/>
-<contactref element="CON_ANALOG2" pad="2"/>
+<contactref element="CON_ANALOG1" pad="2"/>
 <contactref element="C5" pad="P$2"/>
 <contactref element="CON_SPI" pad="2"/>
 <contactref element="R7" pad="P$2"/>
 <contactref element="U3" pad="3"/>
 <contactref element="U3" pad="4"/>
 <contactref element="C8" pad="P$2"/>
-<contactref element="CON_ANALOG1" pad="2"/>
+<contactref element="CON_ANALOG2" pad="2"/>
 <contactref element="JP5" pad="P$1"/>
 <contactref element="JP7" pad="P$1"/>
 <contactref element="U2" pad="32"/>
@@ -3089,8 +3089,8 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <contactref element="JP3" pad="P$2"/>
 <contactref element="C26" pad="P$1"/>
 <contactref element="C1" pad="P$1"/>
-<contactref element="CON_ANALOG1" pad="3"/>
 <contactref element="CON_ANALOG2" pad="3"/>
+<contactref element="CON_ANALOG1" pad="3"/>
 <wire x1="13.5636" y1="16.383" x2="14.7066" y2="15.24" width="0.4064" layer="1"/>
 <wire x1="14.7066" y1="15.24" x2="14.7066" y2="13.8684" width="0.4064" layer="1"/>
 <wire x1="16.6622" y1="13.2742" x2="17.8308" y2="13.2742" width="0.4064" layer="1"/>
@@ -3667,7 +3667,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="N$10">
 <contactref element="R8" pad="P$1"/>
-<contactref element="LED1" pad="A"/>
+<contactref element="LED2" pad="A"/>
 <wire x1="9.1012" y1="8.9154" x2="8.12" y2="8.9154" width="0.4064" layer="1"/>
 </signal>
 <signal name="JTAG_TDI">
@@ -3693,7 +3693,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="JTAG_TRST">
 <contactref element="U2" pad="56"/>
-<contactref element="LED1" pad="C"/>
+<contactref element="LED2" pad="C"/>
 <contactref element="CON_GPIO" pad="4"/>
 <wire x1="11.9634" y1="5.8674" x2="11.9634" y2="8.6106" width="0.1524" layer="1"/>
 <wire x1="13.1526" y1="4.6782" x2="11.9634" y2="5.8674" width="0.1524" layer="1"/>
@@ -4013,7 +4013,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="LED2">
 <contactref element="U2" pad="4"/>
-<contactref element="LED9" pad="C"/>
+<contactref element="LED5" pad="C"/>
 <wire x1="28.2912" y1="10.3136" x2="29.2234" y2="10.3136" width="0.1524" layer="16"/>
 <wire x1="20.32" y1="9.1694" x2="27.147" y2="9.1694" width="0.1524" layer="16"/>
 <wire x1="27.147" y1="9.1694" x2="28.2912" y2="10.3136" width="0.1524" layer="16"/>
@@ -4041,7 +4041,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <signal name="BOOT0">
 <contactref element="U2" pad="60"/>
 <contactref element="R30" pad="P$2"/>
-<contactref element="CON_ANALOG1" pad="6"/>
+<contactref element="CON_ANALOG2" pad="6"/>
 <wire x1="33.2234" y1="4.7048" x2="33.2234" y2="6.8136" width="0.1524" layer="16"/>
 <wire x1="16.6624" y1="9.524" x2="16.6622" y2="9.5242" width="0.1524" layer="1"/>
 <wire x1="15.1328" y1="4.953" x2="15.5702" y2="4.953" width="0.1524" layer="16"/>
@@ -4224,9 +4224,9 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <via x="16.0472" y="18.669" extent="1-16" drill="0.31"/>
 </signal>
 <signal name="ADC_3">
-<contactref element="CON_ANALOG2" pad="6"/>
+<contactref element="CON_ANALOG1" pad="6"/>
 <contactref element="U2" pad="9"/>
-<contactref element="LED6" pad="C"/>
+<contactref element="LED8" pad="C"/>
 <wire x1="28.3782" y1="12.8136" x2="29.2234" y2="12.8136" width="0.1524" layer="16"/>
 <wire x1="27.1216" y1="11.557" x2="28.3782" y2="12.8136" width="0.1524" layer="16"/>
 <wire x1="22.4536" y1="11.1252" x2="22.6568" y2="11.3284" width="0.1524" layer="16"/>
@@ -4245,9 +4245,9 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <via x="20.2636" y="10.2362" extent="1-16" drill="0.31"/>
 </signal>
 <signal name="ADC_2">
-<contactref element="CON_ANALOG2" pad="5"/>
+<contactref element="CON_ANALOG1" pad="5"/>
 <contactref element="U2" pad="8"/>
-<contactref element="LED5" pad="C"/>
+<contactref element="LED7" pad="C"/>
 <wire x1="24.3276" y1="11.1506" x2="27.274" y2="11.1506" width="0.1524" layer="16"/>
 <wire x1="27.274" y1="11.1506" x2="28.437" y2="12.3136" width="0.1524" layer="16"/>
 <wire x1="28.437" y1="12.3136" x2="29.2234" y2="12.3136" width="0.1524" layer="16"/>
@@ -4263,8 +4263,8 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="ADC_1">
 <contactref element="U2" pad="11"/>
-<contactref element="CON_ANALOG2" pad="4"/>
-<contactref element="LED3" pad="C"/>
+<contactref element="CON_ANALOG1" pad="4"/>
+<contactref element="LED6" pad="C"/>
 <wire x1="26.5334" y1="13.8136" x2="29.2234" y2="13.8136" width="0.1524" layer="16"/>
 <wire x1="25.9024" y1="13.1826" x2="26.5334" y2="13.8136" width="0.1524" layer="16"/>
 <wire x1="24.6324" y1="13.1826" x2="25.9024" y2="13.1826" width="0.1524" layer="16"/>
@@ -4280,9 +4280,9 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <via x="20.4668" y="12.7508" extent="1-16" drill="0.31"/>
 </signal>
 <signal name="ADC_4">
-<contactref element="CON_ANALOG1" pad="4"/>
+<contactref element="CON_ANALOG2" pad="4"/>
 <contactref element="U2" pad="25"/>
-<contactref element="LED7" pad="C"/>
+<contactref element="LED4" pad="C"/>
 <wire x1="35.2234" y1="17.449" x2="35.2234" y2="18.3136" width="0.1524" layer="16"/>
 <wire x1="16.6622" y1="12.0242" x2="16.6776" y2="12.0396" width="0.1524" layer="1"/>
 <wire x1="23.3878" y1="16.5862" x2="24.4292" y2="17.6276" width="0.1524" layer="16"/>
@@ -4304,8 +4304,8 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="ADC_6">
 <contactref element="U2" pad="10"/>
-<contactref element="CON_ANALOG1" pad="5"/>
-<contactref element="LED8" pad="C"/>
+<contactref element="CON_ANALOG2" pad="5"/>
+<contactref element="LED3" pad="C"/>
 <wire x1="26.7502" y1="13.3136" x2="29.2234" y2="13.3136" width="0.1524" layer="16"/>
 <wire x1="26.2636" y1="12.827" x2="26.7502" y2="13.3136" width="0.1524" layer="16"/>
 <wire x1="24.2316" y1="12.827" x2="26.2636" y2="12.827" width="0.1524" layer="16"/>
@@ -4371,7 +4371,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <via x="38.3484" y="2.3622" extent="1-16" drill="0.31"/>
 </signal>
 <signal name="N$12">
-<contactref element="LED4" pad="A"/>
+<contactref element="LEDVIN" pad="A"/>
 <contactref element="R23" pad="P$1"/>
 <wire x1="16.9474" y1="5.2244" x2="18.288" y2="5.2244" width="0.4064" layer="1"/>
 </signal>
@@ -4436,27 +4436,27 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="N$5">
 <contactref element="R32" pad="P$1"/>
-<contactref element="LED3" pad="A"/>
+<contactref element="LED6" pad="A"/>
 <wire x1="19.7184" y1="12.0396" x2="18.788" y2="12.0396" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R35" pad="P$1"/>
-<contactref element="LED5" pad="A"/>
+<contactref element="LED7" pad="A"/>
 <wire x1="19.7184" y1="10.922" x2="18.788" y2="10.922" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R36" pad="P$1"/>
-<contactref element="LED6" pad="A"/>
+<contactref element="LED8" pad="A"/>
 <wire x1="19.7184" y1="9.525" x2="18.788" y2="9.525" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="R37" pad="P$1"/>
-<contactref element="LED7" pad="A"/>
+<contactref element="LED4" pad="A"/>
 <wire x1="10.0156" y1="11.2014" x2="8.9582" y2="11.2014" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R38" pad="P$1"/>
-<contactref element="LED8" pad="A"/>
+<contactref element="LED3" pad="A"/>
 <wire x1="10.0156" y1="10.0584" x2="8.9582" y2="10.0584" width="0.4064" layer="1"/>
 </signal>
 <signal name="UART3_TX">
@@ -4488,7 +4488,7 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="LED1">
 <contactref element="U2" pad="41"/>
-<contactref element="LED2" pad="C"/>
+<contactref element="LED1" pad="C"/>
 <wire x1="38.9836" y1="12.3136" x2="40.7234" y2="12.3136" width="0.1524" layer="16"/>
 <wire x1="38.481" y1="11.811" x2="38.9836" y2="12.3136" width="0.1524" layer="16"/>
 <wire x1="33.528" y1="11.811" x2="38.481" y2="11.811" width="0.1524" layer="16"/>
@@ -4505,12 +4505,12 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 </signal>
 <signal name="N$4">
 <contactref element="R10" pad="P$1"/>
-<contactref element="LED2" pad="A"/>
+<contactref element="LED1" pad="A"/>
 <wire x1="8.7964" y1="7.7724" x2="7.8152" y2="7.7724" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R12" pad="P$1"/>
-<contactref element="LED9" pad="A"/>
+<contactref element="LED5" pad="A"/>
 <wire x1="10.0156" y1="12.3444" x2="8.9582" y2="12.3444" width="0.4064" layer="1"/>
 </signal>
 <signal name="VSS1">
