@@ -7156,9 +7156,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="LEDVIN" gate="G$1" x="181.61" y="218.44">
 <attribute name="PARTNO" x="181.61" y="218.44" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="LED6" gate="G$1" x="199.39" y="219.71" smashed="yes">
-<attribute name="NAME" x="202.946" y="215.138" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="205.232" y="215.011" size="1.778" layer="96" rot="R90"/>
+<instance part="LED6" gate="G$1" x="199.39" y="219.71">
 <attribute name="PARTNO" x="199.39" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="194.31" y="222.25" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
@@ -7168,9 +7166,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="PARTNO" x="199.39" y="228.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="195.58" y="233.68" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
-<instance part="LED7" gate="G$1" x="213.36" y="219.71" smashed="yes">
-<attribute name="NAME" x="216.916" y="215.138" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="219.202" y="215.265" size="1.778" layer="96" rot="R90"/>
+<instance part="LED7" gate="G$1" x="213.36" y="219.71">
 <attribute name="PARTNO" x="213.36" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="208.28" y="222.25" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
@@ -7180,9 +7176,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <attribute name="PARTNO" x="213.36" y="228.6" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="209.55" y="233.68" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>
-<instance part="LED8" gate="G$1" x="226.06" y="219.71" smashed="yes">
-<attribute name="NAME" x="229.616" y="214.884" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="231.902" y="215.011" size="1.778" layer="96" rot="R90"/>
+<instance part="LED8" gate="G$1" x="226.06" y="219.71">
 <attribute name="PARTNO" x="226.06" y="219.71" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DNP" x="220.98" y="222.25" size="1.778" layer="96" rot="R270" display="both"/>
 </instance>

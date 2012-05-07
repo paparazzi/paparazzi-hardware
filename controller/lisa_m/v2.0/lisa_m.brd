@@ -616,7 +616,7 @@
 <text x="36.2386" y="22.8838" size="0.8128" layer="21" font="vector" ratio="16">I2C2</text>
 <text x="1.62" y="13.0302" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">I2C1</text>
 <text x="1.62" y="16.4592" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">CAN</text>
-<text x="35.7434" y="1.0668" size="0.8128" layer="21" font="vector" ratio="16">UART1</text>
+<text x="35.7434" y="1.0668" size="0.8128" layer="21" font="vector" ratio="16">UART3</text>
 <text x="21.6322" y="1.5478" size="0.8128" layer="21" font="vector" ratio="16">RC RX</text>
 <text x="9.364" y="5.3388" size="0.8128" layer="21" font="vector" ratio="16">GPIO</text>
 <text x="6.573" y="3.9624" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">USB</text>
@@ -630,7 +630,7 @@
 <text x="37.815" y="5.969" size="0.8128" layer="21" font="vector" ratio="20">VS</text>
 <text x="13.1882" y="17.1196" size="0.8128" layer="21" font="vector" ratio="16" rot="R270">ALOG2</text>
 <text x="18.2682" y="17.1704" size="0.8128" layer="21" font="vector" ratio="16" rot="R270">ALOG1</text>
-<text x="33.0962" y="0.6152" size="0.8128" layer="22" font="vector" ratio="18" rot="MR90">UART1</text>
+<text x="33.0962" y="0.6152" size="0.8128" layer="22" font="vector" ratio="18" rot="MR90">UART3</text>
 <text x="34.3606" y="3.5052" size="0.762" layer="22" font="vector" ratio="20" rot="MR180">3V3</text>
 <text x="37.2054" y="3.9862" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">TX</text>
 <text x="38.2722" y="4.01" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">RX</text>
@@ -638,7 +638,7 @@
 <text x="29.8902" y="1.3716" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">RX5</text>
 <text x="28.8996" y="1.3716" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">3V3</text>
 <text x="27.909" y="1.3716" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">GND</text>
-<text x="26.8422" y="1.3716" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">RX3</text>
+<text x="26.8422" y="1.3716" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">RX1</text>
 <text x="34.9194" y="1.9558" size="0.762" layer="22" font="vector" ratio="20" rot="MR180">V_IN</text>
 <text x="36.1386" y="3.9862" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">VCC</text>
 <text x="25.5468" y="1.3716" size="0.762" layer="22" font="vector" ratio="20" rot="MR90">3V3</text>
