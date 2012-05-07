@@ -706,12 +706,12 @@
 <text x="9.3162" y="5.4102" size="0.762" layer="22" font="vector" ratio="20" rot="MR180">GYRO_SS</text>
 <text x="38.1198" y="10.1346" size="0.8128" layer="21" font="vector" ratio="16" rot="R90">REG3V3</text>
 <text x="29.2298" y="4.3688" size="0.8128" layer="21" font="vector" ratio="20">JTAG</text>
-<text x="1.905" y="32.385" size="1.778" layer="1" font="vector" ratio="10">LISA_M_V2_0_R0 TOP LAYER</text>
-<text x="1.905" y="32.385" size="1.778" layer="2" font="vector" ratio="10">LISA_M_V2_0_R0 LAYER 2</text>
-<text x="1.905" y="32.385" size="1.778" layer="15" font="vector" ratio="10">LISA_M_V2_0_R0 LAYER 3</text>
-<text x="1.905" y="32.385" size="1.778" layer="16" font="vector" ratio="10">LISA_M_V2_0_R0 BOTTOM LAYER</text>
-<text x="1.905" y="32.385" size="1.778" layer="21" font="vector" ratio="10">LISA_M_V2_0_R0 SILK SCREEN TOP</text>
-<text x="1.905" y="32.385" size="1.778" layer="22" font="vector" ratio="10">LISA_M_V2_0_R0 SILK SCREEN BOTTOM</text>
+<text x="1.905" y="32.385" size="1.778" layer="1" font="vector" ratio="10">LISA_M_V2_0_R1 TOP LAYER</text>
+<text x="1.905" y="32.385" size="1.778" layer="2" font="vector" ratio="10">LISA_M_V2_0_R1 LAYER 2</text>
+<text x="1.905" y="32.385" size="1.778" layer="15" font="vector" ratio="10">LISA_M_V2_0_R1 LAYER 3</text>
+<text x="1.905" y="32.385" size="1.778" layer="16" font="vector" ratio="10">LISA_M_V2_0_R1 BOTTOM LAYER</text>
+<text x="1.905" y="32.385" size="1.778" layer="21" font="vector" ratio="10">LISA_M_V2_0_R1 SILK SCREEN TOP</text>
+<text x="1.905" y="32.385" size="1.778" layer="22" font="vector" ratio="10">LISA_M_V2_0_R1 SILK SCREEN BOTTOM</text>
 <text x="1.905" y="32.385" size="1.778" layer="29" font="vector" ratio="10">LISA_M_V1_1_R0 SOLDER MASK TOP</text>
 <text x="1.905" y="32.385" size="1.778" layer="30" font="vector" ratio="10">LISA_M_V1_1_R0 SOLDER MASK BOTTOM</text>
 <text x="1.905" y="32.385" size="1.778" layer="31" font="vector" ratio="10">LISA_M_V1_1_R0 SOLDER PASTE TOP</text>
