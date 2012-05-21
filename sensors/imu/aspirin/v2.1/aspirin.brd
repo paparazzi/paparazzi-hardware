@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -151,7 +151,7 @@
 <text x="1.1007" y="6.7841" size="0.762" layer="21" font="vector" ratio="20" rot="R90">(C)TR2012</text>
 <text x="1.4554" y="0.9328" size="0.635" layer="22" font="vector" ratio="16" rot="MR90">GND</text>
 <text x="16.6446" y="0.9328" size="0.635" layer="22" font="vector" ratio="16" rot="MR90">GND</text>
-<text x="17.3406" y="12.6054" size="0.635" layer="22" font="vector" ratio="16" rot="MR270">GND</text>
+<text x="17.3406" y="12.6054" size="0.635" layer="22" font="vector" ratio="16" rot="MR270">RESV</text>
 <text x="2.0498" y="12.5292" size="0.635" layer="22" font="vector" ratio="16" rot="MR270">GND</text>
 <text x="4.5644" y="12.6562" size="0.635" layer="22" font="vector" ratio="16" rot="MR270">RESV</text>
 <text x="7.1298" y="12.6054" size="0.635" layer="22" font="vector" ratio="16" rot="MR270">MPU_CS</text>
@@ -174,6 +174,7 @@
 <rectangle x1="15.7895" y1="0.7874" x2="15.9165" y2="0.8128" layer="42"/>
 <circle x="1.132" y="1.5062" radius="0.5" width="0.1524" layer="51"/>
 <rectangle x1="7.9155" y1="4.953" x2="7.9917" y2="5.1816" layer="41"/>
+<text x="18.3727" y="10.9497" size="0.762" layer="21" font="vector" ratio="20" rot="R90">R1</text>
 </plain>
 <libraries>
 <library name="v-reg-micrel">
@@ -811,12 +812,10 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <contactref element="ASP1" pad="1"/>
 <contactref element="ASP1" pad="7"/>
 <contactref element="ASP1" pad="14"/>
-<contactref element="ASP1" pad="8"/>
 <contactref element="IC2" pad="3"/>
 <contactref element="C1" pad="P$2"/>
 <contactref element="IC2" pad="4"/>
 <contactref element="IC2" pad="5"/>
-<wire x1="16.9833" y1="13.4874" x2="16.9833" y2="13.5" width="0.4064" layer="1"/>
 <wire x1="1.2099" y1="0.5334" x2="0.6003" y2="0.5334" width="0.4064" layer="1"/>
 <wire x1="1.7433" y1="0" x2="1.2099" y2="0.5334" width="0.4064" layer="1"/>
 <wire x1="2.2767" y1="0.5334" x2="3.0387" y2="0.5334" width="0.4064" layer="1"/>
@@ -825,10 +824,6 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <wire x1="1.7433" y1="13.4874" x2="2.2767" y2="12.954" width="0.4064" layer="1"/>
 <wire x1="1.2099" y1="12.954" x2="0.6765" y2="12.954" width="0.4064" layer="1"/>
 <wire x1="1.7433" y1="13.4874" x2="1.2099" y2="12.954" width="0.4064" layer="1"/>
-<wire x1="17.5167" y1="12.954" x2="18.1263" y2="12.954" width="0.4064" layer="1"/>
-<wire x1="16.9833" y1="13.4874" x2="17.5167" y2="12.954" width="0.4064" layer="1"/>
-<wire x1="16.4499" y1="12.954" x2="15.6879" y2="12.954" width="0.4064" layer="1"/>
-<wire x1="16.4499" y1="12.954" x2="16.9833" y2="13.4874" width="0.4064" layer="1"/>
 <wire x1="1.7433" y1="13.5" x2="1.7433" y2="13.4874" width="0.1524" layer="1"/>
 <wire x1="15.8654" y1="10.1426" x2="15.9166" y2="10.0914" width="0.3048" layer="1"/>
 <wire x1="14.4381" y1="10.1426" x2="15.8654" y2="10.1426" width="0.3048" layer="1"/>
@@ -1165,12 +1160,7 @@ eurocircuits &quot;verified&quot; 4 layers design rules (6B)</description>
 <approved hash="4,1,a72c1849d8426727"/>
 <approved hash="4,1,58d6847aeff4921f"/>
 <approved hash="4,1,4e58bf3d7f378e52"/>
-<approved hash="4,1,fe05f7d91e3f7f62"/>
 <approved hash="4,1,f1572632e62b314e"/>
-<approved hash="4,1,13728e4f2b99e6bb"/>
-<approved hash="4,1,4452ad41e65f3b4e"/>
-<approved hash="4,1,1838891d3b24ff80"/>
-<approved hash="4,1,bc92514870afb1f5"/>
 <approved hash="4,1,b2d3d20c195340b7"/>
 <approved hash="4,1,092dfc6dc3633623"/>
 <approved hash="4,1,22c17ce827a01dcb"/>

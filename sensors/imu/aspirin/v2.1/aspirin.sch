@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -792,7 +792,7 @@ DIN A4, landscape with extra doc field</description>
 <pin name="SCK" x="-17.78" y="-2.54" length="middle"/>
 <pin name="MAG_INT" x="-17.78" y="-5.08" length="middle"/>
 <pin name="GND@2" x="-17.78" y="-7.62" length="middle"/>
-<pin name="GND@3" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="GYRO_CS" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="GYRO_INT" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="SCL" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="SDA" x="17.78" y="0" length="middle" rot="R180"/>
@@ -917,8 +917,8 @@ DIN A4, landscape with extra doc field</description>
 <connect gate="G$1" pin="ACC_INT" pad="13"/>
 <connect gate="G$1" pin="GND@1" pad="1"/>
 <connect gate="G$1" pin="GND@2" pad="7"/>
-<connect gate="G$1" pin="GND@3" pad="8"/>
 <connect gate="G$1" pin="GND@4" pad="14"/>
+<connect gate="G$1" pin="GYRO_CS" pad="8"/>
 <connect gate="G$1" pin="GYRO_INT" pad="9"/>
 <connect gate="G$1" pin="MAG_INT" pad="6"/>
 <connect gate="G$1" pin="MISO" pad="3"/>
@@ -1435,20 +1435,16 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="71.12" y1="66.04" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="66.04" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="50.8" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="66.04" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="45.72" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <junction x="71.12" y="50.8"/>
-<junction x="111.76" y="50.8"/>
 <junction x="91.44" y="45.72"/>
 <pinref part="ASP1" gate="G$1" pin="GND@1"/>
 <pinref part="ASP1" gate="G$1" pin="GND@2"/>
 <pinref part="ASP1" gate="G$1" pin="GND@4"/>
-<pinref part="ASP1" gate="G$1" pin="GND@3"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
