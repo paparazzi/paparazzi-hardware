@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -129,7 +129,7 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
-<schematic>
+<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun">
 <packages>
@@ -2336,40 +2336,82 @@ We've spent an enormous amount of time creating and checking these footprints an
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
-<part name="R11" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K"/>
-<part name="LED1" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Red"/>
+<part name="R11" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K">
+<attribute name="PARTNO" value="res-0402-1k5"/>
+</part>
+<part name="LED1" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Red">
+<attribute name="PARTNO" value="led-0402-red"/>
+</part>
 <part name="GND28" library="SparkFun" deviceset="GND" device=""/>
-<part name="LED2" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Red"/>
-<part name="R1" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K"/>
-<part name="R3" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K"/>
-<part name="U$7" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="U$16" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="U2" library="SparkFun" deviceset="XBEE-1" device="B3"/>
+<part name="LED2" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Red">
+<attribute name="PARTNO" value="led-0402-red"/>
+</part>
+<part name="R1" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K">
+<attribute name="PARTNO" value="res-0402-1k5"/>
+</part>
+<part name="R3" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K">
+<attribute name="PARTNO" value="res-0402-1k5"/>
+</part>
+<part name="U$7" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="U$16" library="SparkFun" deviceset="FIDUCIAL" device="1X2">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="U2" library="SparkFun" deviceset="XBEE-1" device="B3">
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$5" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="U$9" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="U$10" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="U$11" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="LED4" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Green"/>
-<part name="R4" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K"/>
+<part name="U$5" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="U$9" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="U$10" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="U$11" library="SparkFun" deviceset="STAND-OFF" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="LED4" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Green">
+<attribute name="PARTNO" value="led-0402-green"/>
+</part>
+<part name="R4" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1K">
+<attribute name="PARTNO" value="res-0402-1k5"/>
+</part>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="C2" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="0.1uF"/>
+<part name="C2" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="0.1uF">
+<attribute name="PARTNO" value="cap-cer-0402-100n"/>
+</part>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP3" library="SparkFun" deviceset="M11" device="PTH"/>
-<part name="JP2" library="SparkFun" deviceset="M11" device="PTH"/>
+<part name="JP3" library="SparkFun" deviceset="M11" device="PTH">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="JP2" library="SparkFun" deviceset="M11" device="PTH">
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="SJ1" library="pel_jumpers" deviceset="SQ_JMP" device="-0402"/>
+<part name="SJ1" library="pel_jumpers" deviceset="SQ_JMP" device="-0402">
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="X1" library="pel_molex" deviceset="CONN_4-1" device="-53261"/>
-<part name="LED5" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Green"/>
-<part name="U$1" library="SparkFun-RF" deviceset="XBEE-1" device="B1"/>
+<part name="X1" library="pel_molex" deviceset="CONN_4-1" device="-53261">
+<attribute name="PARTNO" value="conn-picoblade-smd-0.05in-4"/>
+</part>
+<part name="LED5" library="pel_dipol_comp" deviceset="LED" device="-0402" value="Green">
+<attribute name="PARTNO" value="led-0402-green"/>
+</part>
+<part name="U$1" library="SparkFun-RF" deviceset="XBEE-1" device="B1">
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="C39" library="pel_dipol_comp" deviceset="CAPACITOR-POL" device="B" value="22u">
-<attribute name="PARTNO" value="T491B226M016AT"/>
+<attribute name="PARTNO" value="cap-tan-B-22u-16v"/>
 </part>
 <part name="U$2" library="quadshot" deviceset="TR-LOGO" device="">
 <attribute name="BOM" value="EXCLUDE"/>
@@ -2390,40 +2432,82 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="R11" gate="G$1" x="63.5" y="45.72" rot="R90"/>
-<instance part="LED1" gate="G$1" x="63.5" y="35.56"/>
+<instance part="R11" gate="G$1" x="63.5" y="45.72" rot="R90">
+<attribute name="PARTNO" x="63.5" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED1" gate="G$1" x="63.5" y="35.56">
+<attribute name="PARTNO" x="63.5" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND28" gate="1" x="63.5" y="25.4"/>
-<instance part="LED2" gate="G$1" x="27.94" y="38.1"/>
-<instance part="R1" gate="G$1" x="27.94" y="48.26" rot="R270"/>
-<instance part="R3" gate="G$1" x="38.1" y="48.26" rot="R270"/>
-<instance part="U$7" gate="G$1" x="243.84" y="27.94"/>
-<instance part="U$16" gate="G$1" x="238.76" y="27.94"/>
-<instance part="U2" gate="G$1" x="121.92" y="104.14"/>
+<instance part="LED2" gate="G$1" x="27.94" y="38.1">
+<attribute name="PARTNO" x="27.94" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="27.94" y="48.26" rot="R270">
+<attribute name="PARTNO" x="27.94" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="38.1" y="48.26" rot="R270">
+<attribute name="PARTNO" x="38.1" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$7" gate="G$1" x="243.84" y="27.94">
+<attribute name="PARTNO" x="243.84" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$16" gate="G$1" x="238.76" y="27.94">
+<attribute name="PARTNO" x="238.76" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="121.92" y="104.14">
+<attribute name="PARTNO" x="121.92" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+1" gate="G$1" x="99.06" y="116.84"/>
 <instance part="GND2" gate="1" x="99.06" y="86.36"/>
-<instance part="U$5" gate="G$1" x="233.68" y="27.94"/>
-<instance part="U$9" gate="G$1" x="228.6" y="27.94"/>
-<instance part="U$10" gate="G$1" x="223.52" y="27.94"/>
-<instance part="U$11" gate="G$1" x="218.44" y="27.94"/>
-<instance part="LED4" gate="G$1" x="50.8" y="35.56"/>
-<instance part="R4" gate="G$1" x="50.8" y="45.72" rot="R90"/>
+<instance part="U$5" gate="G$1" x="233.68" y="27.94">
+<attribute name="PARTNO" x="233.68" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$9" gate="G$1" x="228.6" y="27.94">
+<attribute name="PARTNO" x="228.6" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$10" gate="G$1" x="223.52" y="27.94">
+<attribute name="PARTNO" x="223.52" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$11" gate="G$1" x="218.44" y="27.94">
+<attribute name="PARTNO" x="218.44" y="27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED4" gate="G$1" x="50.8" y="35.56">
+<attribute name="PARTNO" x="50.8" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="50.8" y="45.72" rot="R90">
+<attribute name="PARTNO" x="50.8" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="50.8" y="25.4"/>
-<instance part="C2" gate="G$1" x="142.24" y="157.48"/>
+<instance part="C2" gate="G$1" x="142.24" y="157.48">
+<attribute name="PARTNO" x="142.24" y="157.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="134.62" y="147.32"/>
 <instance part="GND5" gate="1" x="142.24" y="147.32"/>
-<instance part="JP3" gate="G$1" x="165.1" y="101.6" rot="R180"/>
-<instance part="JP2" gate="G$1" x="66.04" y="104.14"/>
+<instance part="JP3" gate="G$1" x="165.1" y="101.6" rot="R180">
+<attribute name="PARTNO" x="165.1" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="JP2" gate="G$1" x="66.04" y="104.14">
+<attribute name="PARTNO" x="66.04" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+2" gate="G$1" x="63.5" y="53.34"/>
-<instance part="SJ1" gate="G$1" x="121.92" y="50.8"/>
+<instance part="SJ1" gate="G$1" x="121.92" y="50.8">
+<attribute name="PARTNO" x="121.92" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+3" gate="G$1" x="38.1" y="55.88"/>
 <instance part="P+4" gate="G$1" x="27.94" y="55.88"/>
 <instance part="P+5" gate="G$1" x="142.24" y="83.82" rot="R180"/>
 <instance part="P+6" gate="G$1" x="45.72" y="104.14"/>
-<instance part="X1" gate="G$1" x="27.94" y="101.6" rot="MR0"/>
-<instance part="LED5" gate="G$1" x="38.1" y="38.1"/>
-<instance part="U$1" gate="G$1" x="121.92" y="104.14"/>
-<instance part="C39" gate="G$1" x="134.62" y="158.75">
-<attribute name="PARTNO" x="134.62" y="158.75" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="X1" gate="G$1" x="27.94" y="101.6" rot="MR0">
+<attribute name="PARTNO" x="27.94" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED5" gate="G$1" x="38.1" y="38.1">
+<attribute name="PARTNO" x="38.1" y="38.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U$1" gate="G$1" x="121.92" y="104.14">
+<attribute name="PARTNO" x="121.92" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C39" gate="G$1" x="134.62" y="157.48">
+<attribute name="PARTNO" x="134.62" y="157.48" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="223.52" y="50.8">
 <attribute name="PARTNO" x="223.52" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -2459,6 +2543,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="134.62" y1="149.86" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="C39" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -2563,7 +2648,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="134.62" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="162.56" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="161.29" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="160.02" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="160.02" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <junction x="142.24" y="162.56"/>
 <label x="144.78" y="162.56" size="1.778" layer="95"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -785,50 +785,84 @@ design rules under a new name.</description>
 <element name="R11" library="pel_dipol_comp" package="0402-RES" value="1K" x="27.94" y="17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.829" y="17.0815" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="29.21" y="18.0975" size="0.4064" layer="27" rot="R270"/>
+<attribute name="PARTNO" value="res-0402-1k5" x="27.94" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED1" library="pel_dipol_comp" package="0402-LED" value="Red" x="33.02" y="20.574" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.909" y="19.8755" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="34.417" y="19.8755" size="0.4064" layer="27"/>
+<attribute name="PARTNO" value="led-0402-red" x="33.02" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED2" library="pel_dipol_comp" package="0402-LED" value="Red" x="33.02" y="11.684" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.02" y="11.684" size="1.27" layer="25"/>
 <attribute name="VALUE" x="33.592" y="12.319" size="0.4064" layer="27"/>
+<attribute name="PARTNO" value="led-0402-red" x="33.02" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R1" library="pel_dipol_comp" package="0402-RES" value="1K" x="27.94" y="12.7" smashed="yes">
 <attribute name="NAME" x="29.94" y="12.7" size="1.27" layer="25"/>
 <attribute name="VALUE" x="26.035" y="12.573" size="0.4064" layer="27"/>
+<attribute name="PARTNO" value="res-0402-1k5" x="27.94" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="pel_dipol_comp" package="0402-RES" value="1K" x="27.94" y="10.16" smashed="yes">
 <attribute name="NAME" x="29.94" y="10.16" size="1.27" layer="25"/>
 <attribute name="VALUE" x="26.035" y="10.033" size="0.4064" layer="27"/>
+<attribute name="PARTNO" value="res-0402-1k5" x="27.94" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$7" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="33.274" y="1.016"/>
-<element name="U$16" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="5.08" y="26.67"/>
+<element name="U$7" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="33.274" y="1.016">
+<attribute name="PARTNO" value="*" x="33.274" y="1.016" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$16" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="5.08" y="26.67">
+<attribute name="PARTNO" value="*" x="5.08" y="26.67" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U2" library="SparkFun" package="XBEE-SMD" value="XBEE-1B3" x="5.08" y="13.97" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.62" y="22.86" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="27.051" y="25.908" size="0.4064" layer="27"/>
+<attribute name="PARTNO" value="*" x="5.08" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$5" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54"/>
-<element name="U$9" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="25.4"/>
-<element name="U$10" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="30.48" y="25.4"/>
-<element name="U$11" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="30.48" y="2.54"/>
+<element name="U$5" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="2.54">
+<attribute name="PARTNO" value="*" x="2.54" y="2.54" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$9" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="2.54" y="25.4">
+<attribute name="PARTNO" value="*" x="2.54" y="25.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$10" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="30.48" y="25.4">
+<attribute name="PARTNO" value="*" x="30.48" y="25.4" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U$11" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="30.48" y="2.54">
+<attribute name="PARTNO" value="*" x="30.48" y="2.54" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED4" library="pel_dipol_comp" package="0402-LED" value="Green" x="33.02" y="16.764" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.909" y="16.0655" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="35.687" y="17.9705" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-green" x="33.02" y="16.764" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="pel_dipol_comp" package="0402-RES" value="1K" x="27.94" y="15.24" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.829" y="14.5415" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="25.654" y="15.113" size="0.4064" layer="27"/>
+<attribute name="PARTNO" value="res-0402-1k5" x="27.94" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="pel_dipol_comp" package="0402-CAP" value="0.1uF" x="8.128" y="9.652"/>
-<element name="JP3" library="SparkFun" package="1X11" value="M11PTH" x="29.21" y="6.35" rot="R180"/>
-<element name="JP2" library="SparkFun" package="1X11" value="M11PTH" x="3.81" y="21.59"/>
-<element name="SJ1" library="pel_jumpers" package="0402-SQJMP" value="" x="20.32" y="8.89"/>
-<element name="X1" library="pel_molex" package="PB-53261-04" value="" x="3.81" y="13.97" rot="R270"/>
-<element name="LED5" library="pel_dipol_comp" package="0402-LED" value="Green" x="33.02" y="7.62" rot="R90"/>
-<element name="U$1" library="SparkFun-RF" package="XBEE-1" value="XBEE-1B1" x="5.08" y="13.97" rot="R270"/>
+<element name="C2" library="pel_dipol_comp" package="0402-CAP" value="0.1uF" x="8.128" y="9.652">
+<attribute name="PARTNO" value="cap-cer-0402-100n" x="8.128" y="9.652" size="1.778" layer="27" display="off"/>
+</element>
+<element name="JP3" library="SparkFun" package="1X11" value="M11PTH" x="29.21" y="6.35" rot="R180">
+<attribute name="PARTNO" value="*" x="29.21" y="6.35" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="JP2" library="SparkFun" package="1X11" value="M11PTH" x="3.81" y="21.59">
+<attribute name="PARTNO" value="*" x="3.81" y="21.59" size="1.778" layer="27" display="off"/>
+</element>
+<element name="SJ1" library="pel_jumpers" package="0402-SQJMP" value="" x="20.32" y="8.89">
+<attribute name="PARTNO" value="*" x="20.32" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X1" library="pel_molex" package="PB-53261-04" value="" x="3.81" y="13.97" rot="R270">
+<attribute name="PARTNO" value="conn-picoblade-smd-0.05in-4" x="3.81" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="LED5" library="pel_dipol_comp" package="0402-LED" value="Green" x="33.02" y="7.62" rot="R90">
+<attribute name="PARTNO" value="led-0402-green" x="33.02" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="U$1" library="SparkFun-RF" package="XBEE-1" value="XBEE-1B1" x="5.08" y="13.97" rot="R270">
+<attribute name="PARTNO" value="*" x="5.08" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="C39" library="pel_dipol_comp" package="3528/B" value="22u" x="10.16" y="12.192">
-<attribute name="PARTNO" value="T491B226M016AT" x="10.16" y="12.192" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="cap-tan-B-22u-16v" x="10.16" y="12.192" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$2" library="quadshot" package="TR-LOGO" value="TR-LOGO" x="18.288" y="13.462" rot="MR0">
 <attribute name="PARTNO" value="*" x="18.288" y="13.462" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -866,6 +900,7 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="U$1" pad="10"/>
 <contactref element="U$1" pad="10"/>
+<contactref element="C39" pad="-"/>
 </signal>
 <signal name="RESET">
 <contactref element="U2" pad="5"/>
