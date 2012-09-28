@@ -1306,15 +1306,15 @@ DIN A4, landscape with extra doc field</description>
 <text x="208.28" y="86.36" size="5.08" layer="91">EEPROM</text>
 <text x="194.31" y="168.91" size="5.08" layer="91">Magnetometer</text>
 <text x="113.03" y="161.29" size="5.08" layer="91">Accelerometer</text>
-<text x="254" y="6.35" size="3.81" layer="94">2.1</text>
+<text x="254" y="6.35" size="3.81" layer="94">2.2</text>
 <text x="228.6" y="38.1" size="1.778" layer="97">http://transition-robotics.com</text>
 <text x="39.37" y="118.11" size="5.08" layer="91">Presure</text>
 <text x="187.96" y="25.4" size="1.27" layer="97">License: CC-BY-SA 3.0</text>
 <text x="210.82" y="25.4" size="1.27" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="217.17" y="30.48" size="1.27" layer="97">(C) 2010-2011 Piotr Esden-Tempski &lt;piotr@esden.net&gt;</text>
-<text x="168.91" y="33.02" size="1.27" layer="97">(C) 2010-2011 Antoine Drouin &lt;poinix@gmail.com&gt;</text>
+<text x="217.17" y="30.48" size="1.27" layer="97">(C) 2010-2011-2012 Piotr Esden-Tempski &lt;piotr@esden.net&gt;</text>
+<text x="166.37" y="33.02" size="1.27" layer="97">(C) 2010-2011 Antoine Drouin &lt;poinix@gmail.com&gt;</text>
 <text x="217.17" y="33.02" size="1.27" layer="97">(C) 2011 Richard Hatano &lt;rhatano@jobyenergy.com&gt;</text>
-<text x="168.91" y="30.48" size="1.27" layer="97">(C) 2011 Transition Robotics &lt;info@transition-robotics.com&gt;</text>
+<text x="166.37" y="30.48" size="1.27" layer="97">(C) 2011-2012 Transition Robotics &lt;info@transition-robotics.com&gt;</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G1" x="38.1" y="154.94">

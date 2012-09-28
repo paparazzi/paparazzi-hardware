@@ -1,0 +1,20 @@
+
+Row {
+    panel_rail
+    Col {
+      aspirin
+      aspirin
+      aspirin
+    }
+    Col {
+      aspirin
+      aspirin
+      aspirin
+    }
+    Col {
+      aspirin
+      aspirin
+      aspirin
+    }
+    panel_rail
+}
