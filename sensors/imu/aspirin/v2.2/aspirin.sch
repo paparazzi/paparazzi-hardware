@@ -1295,7 +1295,7 @@ DIN A4, landscape with extra doc field</description>
 <attribute name="PARTNO" value="res-0402-4k7"/>
 </part>
 <part name="L1" library="res_cap" deviceset="INDUCTOR" device="-0603" value="">
-<attribute name="PARTNO" value="MMZ1608B601C"/>
+<attribute name="PARTNO" value="ferrite-0603-600ohm"/>
 </part>
 </parts>
 <sheets>
