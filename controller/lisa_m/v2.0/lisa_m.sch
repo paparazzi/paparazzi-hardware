@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -544,28 +544,6 @@ DIN A3, landscape with extra doc field</description>
 <text x="-2.2352" y="-1.524" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 <rectangle x1="-0.2032" y1="-0.4064" x2="0.2032" y2="0.4064" layer="35"/>
 </package>
-<package name="7343/D">
-<wire x1="0" y1="0.0508" x2="0" y2="-0.0508" width="1" layer="21"/>
-<wire x1="-0.508" y1="-0.6096" x2="-0.508" y2="0.6096" width="0.3048" layer="21"/>
-<wire x1="-4.4704" y1="1.016" x2="-4.2672" y2="1.2192" width="0.1524" layer="51"/>
-<wire x1="-4.2672" y1="1.2192" x2="-3.8608" y2="1.2192" width="0.1524" layer="51"/>
-<wire x1="-3.8608" y1="1.2192" x2="4.4704" y2="1.2192" width="0.1524" layer="51"/>
-<wire x1="4.4704" y1="1.2192" x2="4.4704" y2="-1.2192" width="0.1524" layer="51"/>
-<wire x1="4.4704" y1="-1.2192" x2="-3.8608" y2="-1.2192" width="0.1524" layer="51"/>
-<wire x1="-3.8608" y1="-1.2192" x2="-4.2672" y2="-1.2192" width="0.1524" layer="51"/>
-<wire x1="-4.2672" y1="-1.2192" x2="-4.4704" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-4.4704" y1="-1.016" x2="-4.4704" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-3.8608" y1="1.2192" x2="-3.8608" y2="-1.2192" width="0.1524" layer="51"/>
-<wire x1="-4.95" y1="1.5" x2="-4.95" y2="-1.5" width="0.0508" layer="39"/>
-<wire x1="-4.95" y1="-1.5" x2="4.95" y2="-1.5" width="0.0508" layer="39"/>
-<wire x1="4.95" y1="-1.5" x2="4.95" y2="1.5" width="0.0508" layer="39"/>
-<wire x1="4.95" y1="1.5" x2="-4.95" y2="1.5" width="0.0508" layer="39"/>
-<smd name="+" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1" rot="R90"/>
-<smd name="-" x="3.175" y="0" dx="2.55" dy="2.7" layer="1" rot="R90"/>
-<text x="-2.2352" y="1.6256" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="-2.3368" y="-2.2352" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
-</package>
 <package name="3528/B">
 <wire x1="0" y1="0.0508" x2="0" y2="-0.0508" width="0.5" layer="21"/>
 <wire x1="-0.2032" y1="-0.6096" x2="-0.2032" y2="0.6096" width="0.1524" layer="21"/>
@@ -684,21 +662,27 @@ DIN A3, landscape with extra doc field</description>
 <rectangle x1="1.15" y1="-0.65" x2="1.75" y2="0.65" layer="51"/>
 </package>
 <package name="0402-LED">
-<wire x1="-0.9" y1="0.45" x2="0.9" y2="0.45" width="0.0508" layer="39"/>
-<wire x1="0.9" y1="0.45" x2="0.9" y2="-0.45" width="0.0508" layer="39"/>
-<wire x1="0.9" y1="-0.45" x2="-0.9" y2="-0.45" width="0.0508" layer="39"/>
-<wire x1="-0.9" y1="-0.45" x2="-0.9" y2="0.45" width="0.0508" layer="39"/>
-<wire x1="-0.508" y1="0.2032" x2="0.508" y2="0.2032" width="0.2032" layer="51"/>
-<wire x1="-0.508" y1="-0.2032" x2="0.508" y2="-0.2032" width="0.2032" layer="51"/>
-<wire x1="0.1" y1="0" x2="-0.1" y2="0.2" width="0.15" layer="21"/>
-<wire x1="-0.1" y1="0.2" x2="-0.1" y2="-0.2" width="0.15" layer="21"/>
-<wire x1="0.1" y1="0" x2="-0.1" y2="-0.2" width="0.15" layer="21"/>
-<smd name="A" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
-<smd name="C" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<wire x1="-0.95" y1="0.5" x2="0.95" y2="0.5" width="0.0508" layer="39"/>
+<wire x1="0.95" y1="0.5" x2="0.95" y2="-0.5" width="0.0508" layer="39"/>
+<wire x1="0.95" y1="-0.5" x2="-0.95" y2="-0.5" width="0.0508" layer="39"/>
+<wire x1="-0.95" y1="-0.5" x2="-0.95" y2="0.5" width="0.0508" layer="39"/>
+<wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0.2032" layer="51"/>
+<wire x1="-0.762" y1="-0.381" x2="0.762" y2="-0.381" width="0.2032" layer="51"/>
+<smd name="C" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<smd name="A" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <text x="-1.143" y="0.8382" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-1.143" y="-1.2954" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
-<rectangle x1="-0.7112" y1="-0.3048" x2="-0.4064" y2="0.3048" layer="51"/>
-<rectangle x1="0.4064" y1="-0.3048" x2="0.7112" y2="0.3048" layer="51"/>
+<rectangle x1="-0.9652" y1="-0.4826" x2="-0.6604" y2="0.4826" layer="51"/>
+<rectangle x1="0.6604" y1="-0.4826" x2="0.9652" y2="0.4826" layer="51"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="0.0762" y1="-0.1524" x2="0.0762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="0.0762" y1="-0.1524" x2="0.0762" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="-0.1524" width="0.1524" layer="21"/>
 </package>
 <package name="0805-CAP">
 <wire x1="-1.425" y1="0.95" x2="1.425" y2="0.95" width="0.0508" layer="39"/>
@@ -731,6 +715,28 @@ DIN A3, landscape with extra doc field</description>
 <rectangle x1="-0.7112" y1="-0.3048" x2="-0.4064" y2="0.3048" layer="51"/>
 <rectangle x1="0.4064" y1="-0.3048" x2="0.7112" y2="0.3048" layer="51"/>
 <rectangle x1="-0.0762" y1="-0.3" x2="0.0762" y2="0.3" layer="21"/>
+</package>
+<package name="7343/D">
+<wire x1="0" y1="0.0508" x2="0" y2="-0.0508" width="1" layer="21"/>
+<wire x1="-0.508" y1="-0.6096" x2="-0.508" y2="0.6096" width="0.3048" layer="21"/>
+<wire x1="-3.65" y1="1.9468" x2="-3.4468" y2="2.15" width="0.1524" layer="51"/>
+<wire x1="-3.4468" y1="2.15" x2="-3" y2="2.15" width="0.1524" layer="51"/>
+<wire x1="-3" y1="2.15" x2="3.65" y2="2.15" width="0.1524" layer="51"/>
+<wire x1="3.65" y1="2.15" x2="3.65" y2="-2.15" width="0.1524" layer="51"/>
+<wire x1="3.65" y1="-2.15" x2="-3" y2="-2.15" width="0.1524" layer="51"/>
+<wire x1="-3" y1="-2.15" x2="-3.4468" y2="-2.15" width="0.1524" layer="51"/>
+<wire x1="-3.4468" y1="-2.15" x2="-3.65" y2="-1.9468" width="0.1524" layer="51"/>
+<wire x1="-3.65" y1="-1.9468" x2="-3.65" y2="1.9468" width="0.1524" layer="51"/>
+<wire x1="-3" y1="2.15" x2="-3" y2="-2.15" width="0.1524" layer="51"/>
+<wire x1="-4.95" y1="2.35" x2="-4.95" y2="-2.35" width="0.0508" layer="39"/>
+<wire x1="-4.95" y1="-2.35" x2="4.95" y2="-2.35" width="0.0508" layer="39"/>
+<wire x1="4.95" y1="-2.35" x2="4.95" y2="2.35" width="0.0508" layer="39"/>
+<wire x1="4.95" y1="2.35" x2="-4.95" y2="2.35" width="0.0508" layer="39"/>
+<smd name="+" x="-3.175" y="0" dx="2.55" dy="2.7" layer="1" rot="R90"/>
+<smd name="-" x="3.175" y="0" dx="2.55" dy="2.7" layer="1" rot="R90"/>
+<text x="-4.5212" y="2.4638" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-4.5466" y="-3.1496" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -854,7 +860,7 @@ DIN A3, landscape with extra doc field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED" prefix="D">
+<deviceset name="LED" prefix="LED">
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>

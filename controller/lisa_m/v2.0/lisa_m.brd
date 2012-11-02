@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1055,21 +1055,27 @@
 <rectangle x1="0.6" y1="-0.6012" x2="1" y2="0.6012" layer="51"/>
 </package>
 <package name="0402-LED">
-<wire x1="-0.9" y1="0.45" x2="0.9" y2="0.45" width="0.0508" layer="39"/>
-<wire x1="0.9" y1="0.45" x2="0.9" y2="-0.45" width="0.0508" layer="39"/>
-<wire x1="0.9" y1="-0.45" x2="-0.9" y2="-0.45" width="0.0508" layer="39"/>
-<wire x1="-0.9" y1="-0.45" x2="-0.9" y2="0.45" width="0.0508" layer="39"/>
-<wire x1="-0.508" y1="0.2032" x2="0.508" y2="0.2032" width="0.2032" layer="51"/>
-<wire x1="-0.508" y1="-0.2032" x2="0.508" y2="-0.2032" width="0.2032" layer="51"/>
-<wire x1="0.1" y1="0" x2="-0.1" y2="0.2" width="0.15" layer="21"/>
-<wire x1="-0.1" y1="0.2" x2="-0.1" y2="-0.2" width="0.15" layer="21"/>
-<wire x1="0.1" y1="0" x2="-0.1" y2="-0.2" width="0.15" layer="21"/>
-<smd name="A" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
-<smd name="C" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<wire x1="-0.95" y1="0.5" x2="0.95" y2="0.5" width="0.0508" layer="39"/>
+<wire x1="0.95" y1="0.5" x2="0.95" y2="-0.5" width="0.0508" layer="39"/>
+<wire x1="0.95" y1="-0.5" x2="-0.95" y2="-0.5" width="0.0508" layer="39"/>
+<wire x1="-0.95" y1="-0.5" x2="-0.95" y2="0.5" width="0.0508" layer="39"/>
+<wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0.2032" layer="51"/>
+<wire x1="-0.762" y1="-0.381" x2="0.762" y2="-0.381" width="0.2032" layer="51"/>
+<smd name="C" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<smd name="A" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <text x="-1.143" y="0.8382" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-1.143" y="-1.2954" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
-<rectangle x1="-0.7112" y1="-0.3048" x2="-0.4064" y2="0.3048" layer="51"/>
-<rectangle x1="0.4064" y1="-0.3048" x2="0.7112" y2="0.3048" layer="51"/>
+<rectangle x1="-0.9652" y1="-0.4826" x2="-0.6604" y2="0.4826" layer="51"/>
+<rectangle x1="0.6604" y1="-0.4826" x2="0.9652" y2="0.4826" layer="51"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="0.0762" y1="-0.1524" x2="0.0762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="0.0762" y1="-0.1524" x2="0.0762" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-0.0762" y1="0" x2="0.0762" y2="-0.1524" width="0.1524" layer="21"/>
 </package>
 <package name="0402-RES">
 <description>Design rule exception the marking is 6mil wide not .1mm as it should be</description>
@@ -1842,7 +1848,7 @@
 <clearance class="0" value="0.1524"/>
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
@@ -2214,10 +2220,10 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="18.5618" y="13.97" size="0.635" layer="28" font="vector" ratio="16" rot="R270"/>
 <attribute name="PARTNO" value="conn-picoblade-smd-0.05in-6-vert" x="20.5938" y="12.6492" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED2" library="pel_dipol_comp" package="0402-LED" value="GRN" x="9.6012" y="8.9154" smashed="yes">
-<attribute name="NAME" x="10.5156" y="8.6106" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="8.4582" y="7.62" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-green" x="9.6012" y="8.9154" size="1.778" layer="27" display="off"/>
+<element name="LED2" library="pel_dipol_comp" package="0402-LED" value="GRN" x="9.6012" y="8.9154" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.954" y="9.2964" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="10.7442" y="10.2108" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-green" x="9.6012" y="8.9154" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="pel_dipol_comp" package="0402-RES" value="300" x="7.62" y="8.9154" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.7056" y="9.144" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -2327,10 +2333,10 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="40.0248" y="0.3048" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 <attribute name="PARTNO" value="res-0402-0" x="38.8818" y="1.6002" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="LEDVIN" library="pel_dipol_comp" package="0402-LED" value="GRN" x="16.9474" y="4.7244" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.1902" y="5.715" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
-<attribute name="VALUE" x="15.652" y="5.8674" size="0.635" layer="27" font="vector" ratio="16" rot="R270"/>
-<attribute name="PARTNO" value="led-0402-green" x="16.9474" y="4.7244" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LEDVIN" library="pel_dipol_comp" package="0402-LED" value="GRN" x="16.9474" y="4.7244" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.857" y="9.2202" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="VALUE" x="18.2428" y="3.5814" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
+<attribute name="PARTNO" value="led-0402-green" x="16.9474" y="4.7244" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="pel_dipol_comp" package="0603-CAP" value="100n" x="6.1158" y="12.4206" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.8016" y="13.4874" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -2365,11 +2371,11 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="17.145" y="3.5814" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
 <attribute name="PARTNO" value="res-0402-10k" x="15.8496" y="4.7244" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED6" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="12.0396" smashed="yes">
-<attribute name="NAME" x="19.304" y="16.383" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="19.0754" y="10.7442" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="12.0396" size="1.778" layer="27" display="off"/>
-<attribute name="DNP" value="T" x="20.2184" y="12.0396" size="1.778" layer="27" display="off"/>
+<element name="LED6" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="12.0396" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.59" y="17.0688" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="21.3614" y="13.335" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="12.0396" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DNP" value="T" x="20.2184" y="12.0396" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R32" library="pel_dipol_comp" package="0402-RES" value="80R" x="18.288" y="12.0396" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.9644" y="16.2306" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -2377,11 +2383,11 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="PARTNO" value="res-0402-80" x="18.288" y="12.0396" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DNP" value="T" x="18.288" y="12.0396" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED7" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="10.922" smashed="yes">
-<attribute name="NAME" x="19.304" y="14.8844" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="19.0754" y="9.6266" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="10.922" size="1.778" layer="27" display="off"/>
-<attribute name="DNP" value="T" x="20.2184" y="10.922" size="1.778" layer="27" display="off"/>
+<element name="LED7" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="10.922" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.59" y="15.3416" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="21.3614" y="12.2174" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DNP" value="T" x="20.2184" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R35" library="pel_dipol_comp" package="0402-RES" value="80R" x="18.288" y="10.922" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.9644" y="14.5034" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -2389,11 +2395,11 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="PARTNO" value="res-0402-80" x="18.288" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DNP" value="T" x="18.288" y="10.922" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED8" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="9.525" smashed="yes">
-<attribute name="NAME" x="19.304" y="13.2588" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="19.0754" y="8.2296" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="9.525" size="1.778" layer="27" display="off"/>
-<attribute name="DNP" value="T" x="20.2184" y="9.525" size="1.778" layer="27" display="off"/>
+<element name="LED8" library="pel_dipol_comp" package="0402-LED" value="BLU" x="20.2184" y="9.525" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.59" y="13.8684" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="21.3614" y="10.8204" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-blue" x="20.2184" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DNP" value="T" x="20.2184" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R36" library="pel_dipol_comp" package="0402-RES" value="80R" x="18.288" y="9.525" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.9644" y="13.1826" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -2401,20 +2407,20 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="PARTNO" value="res-0402-80" x="18.288" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DNP" value="T" x="18.288" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED4" library="pel_dipol_comp" package="0402-LED" value="RED" x="10.5156" y="11.2014" smashed="yes">
-<attribute name="NAME" x="11.5824" y="10.9728" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="9.3726" y="9.906" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-red" x="10.5156" y="11.2014" size="1.778" layer="27" display="off"/>
+<element name="LED4" library="pel_dipol_comp" package="0402-LED" value="RED" x="10.5156" y="11.2014" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.8684" y="11.43" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="11.6586" y="12.4968" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-red" x="10.5156" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R37" library="pel_dipol_comp" package="0402-RES" value="300" x="8.4582" y="11.2014" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.9248" y="11.811" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="9.6012" y="12.4968" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="PARTNO" value="res-0402-300" x="8.4582" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED3" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="10.0584" smashed="yes">
-<attribute name="NAME" x="11.5824" y="9.8298" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="9.3726" y="8.763" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-green" x="10.5156" y="10.0584" size="1.778" layer="27" display="off"/>
+<element name="LED3" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="10.0584" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.9446" y="10.3632" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="11.6586" y="11.3538" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-green" x="10.5156" y="10.0584" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R38" library="pel_dipol_comp" package="0402-RES" value="300" x="8.4582" y="10.0584" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.7056" y="11.1252" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
@@ -2436,20 +2442,20 @@ eurocircuits &quot;proto&quot; 4 layers design rules (6B)</description>
 <attribute name="VALUE" x="24.1046" y="11.7094" size="0.635" layer="27" font="vector" ratio="16"/>
 <attribute name="PARTNO" value="cap-cer-0402-10p" x="25.2476" y="13.0048" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED1" library="pel_dipol_comp" package="0402-LED" value="RED" x="9.2964" y="7.7724" smashed="yes">
-<attribute name="NAME" x="10.3632" y="7.4676" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="8.1534" y="6.477" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-red" x="9.2964" y="7.7724" size="1.778" layer="27" display="off"/>
+<element name="LED1" library="pel_dipol_comp" package="0402-LED" value="RED" x="9.2964" y="7.7724" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7254" y="8.0772" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="10.4394" y="9.0678" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-red" x="9.2964" y="7.7724" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="pel_dipol_comp" package="0402-RES" value="300" x="7.3152" y="7.7724" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.477" y="8.0772" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="8.4582" y="9.0678" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
 <attribute name="PARTNO" value="res-0402-300" x="7.3152" y="7.7724" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED5" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="12.3444" smashed="yes">
-<attribute name="NAME" x="11.5824" y="12.0396" size="0.635" layer="25" font="vector" ratio="16"/>
-<attribute name="VALUE" x="9.3726" y="11.049" size="0.635" layer="27" font="vector" ratio="16"/>
-<attribute name="PARTNO" value="led-0402-green" x="10.5156" y="12.3444" size="1.778" layer="27" display="off"/>
+<element name="LED5" library="pel_dipol_comp" package="0402-LED" value="GRN" x="10.5156" y="12.3444" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.9446" y="12.6492" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="11.6586" y="13.6398" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+<attribute name="PARTNO" value="led-0402-green" x="10.5156" y="12.3444" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="pel_dipol_comp" package="0402-RES" value="300" x="8.4582" y="12.3444" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.4488" y="13.5636" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
