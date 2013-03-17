@@ -1,0 +1,1 @@
+This board combines a MS5611 pressure sensor, a multi-I2C connector, a 3.3V to 5V I2C level shifter and a JR servo connector.
