@@ -81,7 +81,7 @@ dirs :
 # Drill data for NC drill st.
 # warning : eagle takes path of -R option from input file directory.
 %.xln : %.brd
-	eagle -X -N -d EXCELLON -E -0.02 -E 0.1 -R fab/eurocircuits.drl -o $@ $< Drills Holes
+	eagle -X -N -d EXCELLON -E -0.01 -E 0.02 -R fab/1b2.drl -o $@ $< Drills Holes
 # Outline
 %.bor : %.brd
 	eagle -X -N -d GERBER_RS274X -o $@ $< Dimension
