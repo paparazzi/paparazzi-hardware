@@ -1,0 +1,146 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 10/04/2014 09:55:23
+#Cmp ( order = Reference ) (with SubCmp)
+| 3,2mm1     MOUNTING_HOLE; mounting_hole_3,2mm
+| 3,2mm2     MOUNTING_HOLE; mounting_hole_3,2mm
+| 3,2mm3     MOUNTING_HOLE; mounting_hole_3,2mm
+| 3,2mm4     MOUNTING_HOLE; mounting_hole_3,2mm
+| ADC1       CONN_12     ; SIL-12      
+| B1         BUZZER_12.2X3.5; buzzer_PS1240P02CT3
+| BOOT0      SW_PUSH     ; pushbutton_tactile
+| C1         100n        ; C1          
+| C2         100n        ; C1          
+| C3         100n        ; C1          
+| C4         100n        ; C1          
+| C5         100n        ; C1          
+| C6         100n        ; C1          
+| C7         CAPAPOL     ; C2V8        
+| C8         CAPAPOL     ; C2V8        
+| C9         100n        ; C1          
+| C10        100n        ; C1          
+| D1         DIODE       ; D3          
+| D2         DIODE       ; D3          
+| D3         DIODE       ; D3          
+| D4         DIODE       ; D3          
+| D5         DIODE       ; D3          
+| D6         DIODE       ; D3          
+| D7         DIODE       ; D3          
+| D8         DIODE       ; D3          
+| D9         DIODE       ; D3          
+| D10        DIODE       ; D3          
+| D11        DIODE       ; D3          
+| D12        DIODE       ; D3          
+| D13        DIODE       ; D3          
+| D14        DIODE       ; D3          
+| D15        DIODE       ; D3          
+| Drotek10DOF1 CONN_5      ; drotek10dof 
+| I2C1       CONN_4      ; PIN_ARRAY_4x1
+| I2C2       CONN_4      ; PIN_ARRAY_4x1
+| I2C3       CONN_4      ; PIN_ARRAY_4x1
+| JP1        JUMPER      ; Ujumper     
+| JP2        JUMPER      ; Ujumper     
+| P1         CONN_25X2   ; pin_array_25x2
+| P2         CONN_25X2   ; pin_array_25x2
+| PWM/PPM/Spektrum1 CONN_15X3   ; pin_array_15x3
+| R1         22k         ; R3          
+| R2         2k2         ; R3          
+| R3         22k         ; R3          
+| R4         2k2         ; R3          
+| R5         22k         ; R3          
+| R6         2k2         ; R3          
+| R7         22k         ; R3          
+| R8         2k2         ; R3          
+| R9         22k         ; R3          
+| R10        2k2         ; R3          
+| R11        22k         ; R3          
+| R12        2k2         ; R3          
+| R13        220         ; R3          
+| R14        470         ; R3          
+| R15        1k          ; R3          
+| screw1     CONN_3      ; bornier3    
+| screw2     CONN_2      ; bornier2    
+| screw3     CONN_2      ; bornier2    
+| SPI1       CONN_6      ; PIN_ARRAY-6X1
+| SPI2       CONN_6      ; PIN_ARRAY-6X1
+| SPI3       CONN_6      ; PIN_ARRAY-6X1
+| T1         BC547       ; TO92        
+| UART1      CONN_4      ; PIN_ARRAY_4x1
+| UART2      CONN_4      ; PIN_ARRAY_4x1
+| UART3      CONN_4      ; PIN_ARRAY_4x1
+| UART4      CONN_4      ; PIN_ARRAY_4x1
+| UART5      CONN_4      ; PIN_ARRAY_4x1
+| UART6      CONN_4      ; PIN_ARRAY_4x1
+#End Cmp
+
+#Cmp ( order = Value ) (with SubCmp)
+| CONN_12      ADC1      Loc /(X=229,870 mm, Y=107,950 mm); SIL-12      
+| BUZZER_12.2X3.5 B1        Loc /(X=148,590 mm, Y=58,420 mm); buzzer_PS1240P02CT3
+| SW_PUSH      BOOT0     Loc /(X=201,930 mm, Y=158,750 mm); pushbutton_tactile
+| 100n         C1        Loc /(X=39,370 mm, Y=172,720 mm); C1          
+| 100n         C2        Loc /(X=66,040 mm, Y=172,720 mm); C1          
+| 100n         C3        Loc /(X=92,710 mm, Y=172,720 mm); C1          
+| 100n         C4        Loc /(X=119,380 mm, Y=172,720 mm); C1          
+| 100n         C5        Loc /(X=146,050 mm, Y=172,720 mm); C1          
+| 100n         C6        Loc /(X=172,720 mm, Y=172,720 mm); C1          
+| 100n         C9        Loc /(X=49,530 mm, Y=111,760 mm); C1          
+| 100n         C10       Loc /(X=49,530 mm, Y=132,080 mm); C1          
+| CAPAPOL      C7        Loc /(X=38,100 mm, Y=111,760 mm); C2V8        
+| CAPAPOL      C8        Loc /(X=38,100 mm, Y=132,080 mm); C2V8        
+| DIODE        D1        Loc /(X=33,020 mm, Y=162,560 mm); D3          
+| DIODE        D2        Loc /(X=33,020 mm, Y=172,720 mm); D3          
+| DIODE        D3        Loc /(X=59,690 mm, Y=162,560 mm); D3          
+| DIODE        D4        Loc /(X=59,690 mm, Y=172,720 mm); D3          
+| DIODE        D5        Loc /(X=86,360 mm, Y=162,560 mm); D3          
+| DIODE        D6        Loc /(X=86,360 mm, Y=172,720 mm); D3          
+| DIODE        D7        Loc /(X=113,030 mm, Y=162,560 mm); D3          
+| DIODE        D8        Loc /(X=113,030 mm, Y=172,720 mm); D3          
+| DIODE        D9        Loc /(X=139,700 mm, Y=162,560 mm); D3          
+| DIODE        D10       Loc /(X=139,700 mm, Y=172,720 mm); D3          
+| DIODE        D11       Loc /(X=166,370 mm, Y=162,560 mm); D3          
+| DIODE        D12       Loc /(X=166,370 mm, Y=172,720 mm); D3          
+| DIODE        D13       Loc /(X=58,420 mm, Y=111,760 mm); D3          
+| DIODE        D14       Loc /(X=58,420 mm, Y=132,080 mm); D3          
+| DIODE        D15       Loc /(X=129,540 mm, Y=58,420 mm); D3          
+| CONN_5       Drotek10DOF1Loc /(X=208,280 mm, Y=78,740 mm); drotek10dof 
+| CONN_4       I2C1      Loc /(X=207,010 mm, Y=31,750 mm); PIN_ARRAY_4x1
+| CONN_4       I2C2      Loc /(X=207,010 mm, Y=46,990 mm); PIN_ARRAY_4x1
+| CONN_4       I2C3      Loc /(X=207,010 mm, Y=60,960 mm); PIN_ARRAY_4x1
+| JUMPER       JP1       Loc /(X=120,650 mm, Y=123,190 mm); Ujumper     
+| JUMPER       JP2       Loc /(X=120,650 mm, Y=132,080 mm); Ujumper     
+| CONN_25X2    P1        Loc /(X=40,640 mm, Y=59,690 mm); pin_array_25x2
+| CONN_25X2    P2        Loc /(X=85,090 mm, Y=59,690 mm); pin_array_25x2
+| 220          R13       Loc /(X=246,380 mm, Y=135,890 mm); R3          
+| 470          R14       Loc /(X=119,380 mm, Y=73,660 mm); R3          
+| 1k           R15       Loc /(X=135,890 mm, Y=58,420 mm); R3          
+| 2k2          R2        Loc /(X=25,400 mm, Y=173,990 mm); R3          
+| 2k2          R4        Loc /(X=52,070 mm, Y=173,990 mm); R3          
+| 2k2          R6        Loc /(X=78,740 mm, Y=173,990 mm); R3          
+| 2k2          R8        Loc /(X=105,410 mm, Y=173,990 mm); R3          
+| 2k2          R10       Loc /(X=132,080 mm, Y=173,990 mm); R3          
+| 2k2          R12       Loc /(X=158,750 mm, Y=173,990 mm); R3          
+| 22k          R1        Loc /(X=25,400 mm, Y=161,290 mm); R3          
+| 22k          R3        Loc /(X=52,070 mm, Y=161,290 mm); R3          
+| 22k          R5        Loc /(X=78,740 mm, Y=161,290 mm); R3          
+| 22k          R7        Loc /(X=105,410 mm, Y=161,290 mm); R3          
+| 22k          R9        Loc /(X=132,080 mm, Y=161,290 mm); R3          
+| 22k          R11       Loc /(X=158,750 mm, Y=161,290 mm); R3          
+| CONN_2       screw2    Loc /(X=96,520 mm, Y=123,190 mm); bornier2    
+| CONN_2       screw3    Loc /(X=88,900 mm, Y=134,620 mm); bornier2    
+| CONN_3       screw1    Loc /(X=96,520 mm, Y=114,300 mm); bornier3    
+| CONN_6       SPI1      Loc /(X=236,220 mm, Y=33,020 mm); PIN_ARRAY-6X1
+| CONN_6       SPI2      Loc /(X=236,220 mm, Y=53,340 mm); PIN_ARRAY-6X1
+| CONN_6       SPI3      Loc /(X=236,220 mm, Y=73,660 mm); PIN_ARRAY-6X1
+| BC547        T1        Loc /(X=133,350 mm, Y=73,660 mm); TO92        
+| CONN_4       UART1     Loc /(X=180,340 mm, Y=33,020 mm); PIN_ARRAY_4x1
+| CONN_4       UART2     Loc /(X=180,340 mm, Y=48,260 mm); PIN_ARRAY_4x1
+| CONN_4       UART3     Loc /(X=180,340 mm, Y=62,230 mm); PIN_ARRAY_4x1
+| CONN_4       UART4     Loc /(X=180,340 mm, Y=77,470 mm); PIN_ARRAY_4x1
+| CONN_4       UART5     Loc /(X=180,340 mm, Y=92,710 mm); PIN_ARRAY_4x1
+| MOUNTING_HOLE 3,2mm1    Loc /(X=243,840 mm, Y=157,480 mm); mounting_hole_3,2mm
+| CONN_4       UART6     Loc /(X=180,340 mm, Y=107,950 mm); PIN_ARRAY_4x1
+| CONN_15X3    PWM/PPM/Spektrum1Loc /(X=266,700 mm, Y=78,740 mm); pin_array_15x3
+| MOUNTING_HOLE 3,2mm4    Loc /(X=262,890 mm, Y=168,910 mm); mounting_hole_3,2mm
+| MOUNTING_HOLE 3,2mm3    Loc /(X=262,890 mm, Y=157,480 mm); mounting_hole_3,2mm
+| MOUNTING_HOLE 3,2mm2    Loc /(X=243,840 mm, Y=168,910 mm); mounting_hole_3,2mm
+#End Cmp
+
+#End List
