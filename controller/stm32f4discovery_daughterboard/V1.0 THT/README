@@ -1,0 +1,13 @@
+This is a daughterboard for the STM32F4 Discovery.
+
+One of the ideas for this pcb was to build a sub 50€ autopilot, so everything is minimized.
+Only THT components have been used, this should allow everbody to solder it himself.
+
+The basic function is to break out all bus, adc and pwm pins to a useable pinout.
+Each bus (UART, I2C, SPI) has a 5V and GND pin beneath.
+
+The pcb was entirely designed in KiCad Version: (2013-07-07 BZR 4022)-stable
+
+More information about this can be found in the wiki: http://wiki.paparazziuav.org/wiki/STM32F4_Discovery
+
+This version (V1.0) should be used with care !
