@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "STM32F4 Discovery Daughterboard Paparazzi"
-Date "11 apr 2014"
+Date "2 may 2014"
 Rev "V1.0"
 Comp ""
 Comment1 ""
@@ -1176,15 +1176,15 @@ PC8
 $Comp
 L CONN_3 screw1
 U 1 1 5333D051
-P 3800 4500
-F 0 "screw1" V 3750 4500 50  0000 C CNN
-F 1 "CONN_3" V 3850 4500 40  0000 C CNN
-F 2 "bornier3" H 3800 4500 60  0001 C CNN
-F 3 "~" H 3800 4500 60  0000 C CNN
-	1    3800 4500
+P 3800 4400
+F 0 "screw1" V 3750 4400 50  0000 C CNN
+F 1 "CONN_3" V 3850 4400 40  0000 C CNN
+F 2 "bornier3" H 3800 4400 60  0001 C CNN
+F 3 "~" H 3800 4400 60  0000 C CNN
+	1    3800 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 3400 4600 0    39   Input ~ 0
+Text GLabel 3400 4300 0    39   Input ~ 0
 ADC4
 $Comp
 L C C1
@@ -1803,7 +1803,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 4500 2900 4500
 Wire Wire Line
-	3400 4600 3450 4600
+	3400 4300 3450 4300
 Wire Wire Line
 	2350 7100 2350 7000
 Wire Wire Line
