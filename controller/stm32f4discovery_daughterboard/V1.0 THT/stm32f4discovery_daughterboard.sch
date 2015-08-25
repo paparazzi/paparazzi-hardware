@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:stm32f4discovery_daughterboard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32f4discovery_daughterboard-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -552,7 +552,7 @@ $EndComp
 Text GLabel 8300 6250 2    39   BiDi ~ 0
 BOOT0
 $Comp
-L R R1
+L R-RESCUE-stm32f4discovery_daughterboard R1
 U 1 1 53306EC7
 P 1000 6350
 F 0 "R1" V 1080 6350 40  0000 C CNN
@@ -563,7 +563,7 @@ F 3 "~" H 1000 6350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-stm32f4discovery_daughterboard R2
 U 1 1 53306ED4
 P 1000 6850
 F 0 "R2" V 1080 6850 40  0000 C CNN
@@ -604,7 +604,7 @@ $EndComp
 Text GLabel 1300 6200 1    39   BiDi ~ 0
 3V
 $Comp
-L R R3
+L R-RESCUE-stm32f4discovery_daughterboard R3
 U 1 1 53306F32
 P 2050 6350
 F 0 "R3" V 2130 6350 40  0000 C CNN
@@ -615,7 +615,7 @@ F 3 "~" H 2050 6350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-stm32f4discovery_daughterboard R4
 U 1 1 53306F38
 P 2050 6850
 F 0 "R4" V 2130 6850 40  0000 C CNN
@@ -656,7 +656,7 @@ $EndComp
 Text GLabel 2350 6200 1    39   BiDi ~ 0
 3V
 $Comp
-L R R5
+L R-RESCUE-stm32f4discovery_daughterboard R5
 U 1 1 53306F54
 P 3100 6350
 F 0 "R5" V 3180 6350 40  0000 C CNN
@@ -667,7 +667,7 @@ F 3 "~" H 3100 6350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-stm32f4discovery_daughterboard R6
 U 1 1 53306F5A
 P 3100 6850
 F 0 "R6" V 3180 6850 40  0000 C CNN
@@ -708,7 +708,7 @@ $EndComp
 Text GLabel 3400 6200 1    39   BiDi ~ 0
 3V
 $Comp
-L R R7
+L R-RESCUE-stm32f4discovery_daughterboard R7
 U 1 1 53306F76
 P 4150 6350
 F 0 "R7" V 4230 6350 40  0000 C CNN
@@ -719,7 +719,7 @@ F 3 "~" H 4150 6350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-stm32f4discovery_daughterboard R8
 U 1 1 53306F7C
 P 4150 6850
 F 0 "R8" V 4230 6850 40  0000 C CNN
@@ -760,7 +760,7 @@ $EndComp
 Text GLabel 4450 6200 1    39   BiDi ~ 0
 3V
 $Comp
-L R R9
+L R-RESCUE-stm32f4discovery_daughterboard R9
 U 1 1 53306F98
 P 5200 6350
 F 0 "R9" V 5280 6350 40  0000 C CNN
@@ -771,7 +771,7 @@ F 3 "~" H 5200 6350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-stm32f4discovery_daughterboard R10
 U 1 1 53306F9E
 P 5200 6850
 F 0 "R10" V 5280 6850 40  0000 C CNN
@@ -812,7 +812,7 @@ $EndComp
 Text GLabel 5500 6200 1    39   BiDi ~ 0
 3V
 $Comp
-L R R11
+L R-RESCUE-stm32f4discovery_daughterboard R11
 U 1 1 53306FBA
 P 6250 6350
 F 0 "R11" V 6330 6350 40  0000 C CNN
@@ -823,7 +823,7 @@ F 3 "~" H 6250 6350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-stm32f4discovery_daughterboard R12
 U 1 1 53306FC0
 P 6250 6850
 F 0 "R12" V 6330 6850 40  0000 C CNN
@@ -1050,7 +1050,7 @@ F 3 "~" H 1500 4400 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-stm32f4discovery_daughterboard R13
 U 1 1 5331F861
 P 9700 5350
 F 0 "R13" V 9780 5350 40  0000 C CNN
@@ -1065,7 +1065,7 @@ GND
 Text GLabel 7700 3100 0    39   BiDi ~ 0
 VIN
 $Comp
-L C C2
+L C-RESCUE-stm32f4discovery_daughterboard C2
 U 1 1 5331FFE7
 P 2600 6800
 F 0 "C2" H 2600 6900 40  0000 L CNN
@@ -1137,7 +1137,7 @@ $EndComp
 Text GLabel 5350 3200 3    39   BiDi ~ 0
 GND
 $Comp
-L R R14
+L R-RESCUE-stm32f4discovery_daughterboard R14
 U 1 1 5332FC66
 P 4700 2900
 F 0 "R14" V 4780 2900 40  0000 C CNN
@@ -1159,7 +1159,7 @@ F 3 "~" H 5850 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-stm32f4discovery_daughterboard R15
 U 1 1 53330136
 P 5350 2300
 F 0 "R15" V 5430 2300 40  0000 C CNN
@@ -1187,7 +1187,7 @@ $EndComp
 Text GLabel 3400 4300 0    39   Input ~ 0
 ADC4
 $Comp
-L C C1
+L C-RESCUE-stm32f4discovery_daughterboard C1
 U 1 1 5334159B
 P 1550 6800
 F 0 "C1" H 1550 6900 40  0000 L CNN
@@ -1198,7 +1198,7 @@ F 3 "~" H 1550 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-stm32f4discovery_daughterboard C3
 U 1 1 533415A1
 P 3650 6800
 F 0 "C3" H 3650 6900 40  0000 L CNN
@@ -1209,7 +1209,7 @@ F 3 "~" H 3650 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-stm32f4discovery_daughterboard C4
 U 1 1 533415A7
 P 4700 6800
 F 0 "C4" H 4700 6900 40  0000 L CNN
@@ -1220,7 +1220,7 @@ F 3 "~" H 4700 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-stm32f4discovery_daughterboard C5
 U 1 1 533415AD
 P 5750 6800
 F 0 "C5" H 5750 6900 40  0000 L CNN
@@ -1231,7 +1231,7 @@ F 3 "~" H 5750 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-stm32f4discovery_daughterboard C6
 U 1 1 533415B3
 P 6800 6800
 F 0 "C6" H 6800 6900 40  0000 L CNN
@@ -1884,7 +1884,7 @@ F 3 "~" H 8200 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-stm32f4discovery_daughterboard C9
 U 1 1 53430CB7
 P 1950 4400
 F 0 "C9" H 1950 4500 40  0000 L CNN
@@ -1895,7 +1895,7 @@ F 3 "~" H 1950 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L C-RESCUE-stm32f4discovery_daughterboard C10
 U 1 1 53430CBD
 P 1950 5200
 F 0 "C10" H 1950 5300 40  0000 L CNN
