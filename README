@@ -55,7 +55,7 @@ Directory content:
 ------------------
 panel: 
   Contains configuration files used in conjunction with gerbmerge to produce a pannel
-  to be send to the PCB manufacturer (eurocircuits). A panel is a big PCB containing several smaller PCB.
+  to be sent to the PCB manufacturer (eurocircuits). A panel is a big PCB containing several smaller PCB.
   It allows you to choose which boards you want for your particular system.
 
 controller: 
